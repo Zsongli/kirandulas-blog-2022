@@ -36,7 +36,7 @@
 	.map {
         animation: spin 2s linear infinite;
         background-color: olivedrab;
-		mask-image: url("worldmap.svg");
+		mask-image: url("/worldmap.svg");
 		mask-size: cover;
 		mask-repeat: repeat-x;
         mask-position: var(--rotation);
