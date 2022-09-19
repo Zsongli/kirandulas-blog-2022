@@ -16,7 +16,7 @@
             --rotation: 0%;
         }
         100% {
-            --rotation: 186%;
+            --rotation: -186%;
         }
     }
 
@@ -34,7 +34,7 @@
 	}
     
 	.map {
-        animation: spin 2s linear infinite;
+        animation: spin 2s cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite;
         background-color: olivedrab;
 		mask-image: url("/worldmap.svg");
 		mask-size: cover;

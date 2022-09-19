@@ -5,7 +5,25 @@ const config = {
 		extend: {}
 	},
 
-	plugins: []
+	plugins: [require("daisyui")],
+
+	daisyui: {
+		themes: [
+			{
+				default: {
+					"primary": "#3935b7",
+					"secondary": "#bca923",
+					"accent": "#148669",
+					"neutral": "#1d1d24",
+					"base-100": "#23222a",
+					"info": "#0d8bbf",
+					"success": "#008b00",
+					"warning": "#8d7000",
+					"error": "#c43e3c"
+				}
+			}
+		]
+	}
 };
 
 module.exports = config;
