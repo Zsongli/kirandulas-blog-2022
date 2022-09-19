@@ -1,6 +1,8 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@fortawesome/free-brands-svg-icons': ^6.2.0
+  '@fortawesome/free-solid-svg-icons': ^6.2.0
   '@sveltejs/adapter-vercel': 1.0.0-next.74
   '@sveltejs/kit': 1.0.0-next.481
   '@typescript-eslint/eslint-plugin': ^5.27.0
@@ -16,6 +18,7 @@ specifiers:
   prettier-plugin-svelte: ^2.7.0
   svelte: ^3.44.0
   svelte-check: ^2.7.1
+  svelte-fa: ^3.0.3
   svelte-preprocess: ^4.10.7
   tailwindcss: ^3.1.5
   tslib: ^2.3.1
@@ -23,6 +26,8 @@ specifiers:
   vite: ^3.1.0
 
 devDependencies:
+  '@fortawesome/free-brands-svg-icons': 6.2.0
+  '@fortawesome/free-solid-svg-icons': 6.2.0
   '@sveltejs/adapter-vercel': 1.0.0-next.74
   '@sveltejs/kit': 1.0.0-next.481_svelte@3.50.1+vite@3.1.0
   '@typescript-eslint/eslint-plugin': 5.37.0_22c5fnooleyfkzrkkgdmel5kmi
@@ -38,6 +43,7 @@ devDependencies:
   prettier-plugin-svelte: 2.7.0_nk6d2fkgcllkkdynqbuearcure
   svelte: 3.50.1
   svelte-check: 2.9.0_zy537mcxrfn3wq4nghluxnsi5a
+  svelte-fa: 3.0.3
   svelte-preprocess: 4.10.7_sxt3mkf5m54vn3maobdwhqzitu
   tailwindcss: 3.1.8_postcss@8.4.16
   tslib: 2.4.0
@@ -70,6 +76,28 @@ packages:
       strip-json-comments: 3.1.1
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /@fortawesome/fontawesome-common-types/6.2.0:
+    resolution: {integrity: sha512-rBevIsj2nclStJ7AxTdfsa3ovHb1H+qApwrxcTVo+NNdeJiB9V75hsKfrkG5AwNcRUNxrPPiScGYCNmLMoh8pg==}
+    engines: {node: '>=6'}
+    requiresBuild: true
+    dev: true
+
+  /@fortawesome/free-brands-svg-icons/6.2.0:
+    resolution: {integrity: sha512-fm1y4NyZ2qKYNmYhdMz9VAWRw1Et7PMHNunSw3W0SVAwKwv6o0qiJworLH3Y9SnmhHzAymXJwCX1op22FFvGiA==}
+    engines: {node: '>=6'}
+    requiresBuild: true
+    dependencies:
+      '@fortawesome/fontawesome-common-types': 6.2.0
+    dev: true
+
+  /@fortawesome/free-solid-svg-icons/6.2.0:
+    resolution: {integrity: sha512-UjCILHIQ4I8cN46EiQn0CZL/h8AwCGgR//1c4R96Q5viSRwuKVo0NdQEc4bm+69ZwC0dUvjbDqAHF1RR5FA3XA==}
+    engines: {node: '>=6'}
+    requiresBuild: true
+    dependencies:
+      '@fortawesome/fontawesome-common-types': 6.2.0
     dev: true
 
   /@humanwhocodes/config-array/0.10.4:
@@ -2112,6 +2140,10 @@ packages:
       - sass
       - stylus
       - sugarss
+    dev: true
+
+  /svelte-fa/3.0.3:
+    resolution: {integrity: sha512-GIikJjcVCD+5Y/x9hZc2R4gvuA0gVftacuWu1a+zVQWSFjFYZ+hhU825x+QNs2slsppfrgmFiUyU9Sz9gj4Rdw==}
     dev: true
 
   /svelte-hmr/0.14.12_svelte@3.50.1:
