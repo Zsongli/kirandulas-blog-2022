@@ -19,18 +19,18 @@
 	</div>
 
 	<div class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-		<a rel="external" target="blank" href="http://szlgbp.hu" class="link">
+		<a rel="external" target="_blank" href="http://szlgbp.hu" class="link">
 			<Fa icon={szlgIcon} size="2x" />
 		</a>
 		<a
 			rel="external"
-			target="blank"
+			target="_blank"
 			href="https://github.com/Zsongli/kirandulas-blog-2022"
 			class="link"
 		>
 			<Fa icon={faGithub} size="2x" />
 		</a>
-		<a rel="external" target="blank" href="https://kit.svelte.dev" class="link">
+		<a rel="external" target="_blank" href="https://kit.svelte.dev" class="link">
 			<Fa icon={svelteIcon} size="2x" />
 		</a>
 	</div>
