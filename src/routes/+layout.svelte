@@ -1,5 +1,5 @@
 <script lang="ts">
-	import "../app.pcss";
+	import "$lib/styles/app.pcss";
 	import Footer from "$lib/components/Footer.svelte";
 	import { navigating } from "$app/stores";
 	import PageLoader from "$lib/components/PageLoader.svelte";

@@ -1,4 +1,5 @@
 <script lang="ts">
+	import "$lib/styles/glitch.pcss";
 	import { page } from "$app/stores";
 	import Fa from "svelte-fa";
 	import { faTriangleExclamation } from "@fortawesome/free-solid-svg-icons";
@@ -36,7 +37,3 @@
 		</p>
 	</div>
 </template>
-
-<style lang="postcss">
-	@import "/glitch.pcss";
-</style>

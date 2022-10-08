@@ -1,16 +1,16 @@
 <script lang="ts">
 	import { onMount } from "svelte";
 	import { fade } from "svelte/transition";
-	import {navigating} from "$app/stores";
+	import { navigating } from "$app/stores";
 
 	export var showAfter = 500;
 	export var fadeInDuration = 100;
 	export var fadeOutDuration = 50;
-	export var message: string = "Töltés...";
+	export var message: string = "Loading...";
 
 	var show = false;
 	onMount(() => {
-		setTimeout(()=>{
+		setTimeout(() => {
 			show = true;
 		}, showAfter);
 	}); // so it doesn't show up on fast loads
