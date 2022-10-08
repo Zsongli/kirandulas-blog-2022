@@ -3,9 +3,9 @@
 	import { fade } from "svelte/transition";
 	import { navigating } from "$app/stores";
 
-	export var showAfter = 500;
-	export var fadeInDuration = 100;
-	export var fadeOutDuration = 50;
+	export var showAfter: number = 500;
+	export var fadeInDuration: number = 100;
+	export var fadeOutDuration: number = 50;
 	export var message: string = "Loading...";
 
 	var show = false;
