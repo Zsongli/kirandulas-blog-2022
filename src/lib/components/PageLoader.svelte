@@ -16,17 +16,19 @@
 	}); // so it doesn't show up on fast loads
 </script>
 
-{#if show && $navigating != null}
-	<div
-		class="fixed w-screen h-screen bg-base-300 z-50"
-		in:fade={{ duration: fadeInDuration }}
-		out:fade={{ duration: fadeOutDuration }}
-	>
+<template>
+	{#if show && $navigating != null}
 		<div
-			class="flex flex-col items-center justify-center gap-5 text-center w-1/2 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+			class="fixed w-screen h-screen bg-base-300 z-50"
+			in:fade={{ duration: fadeInDuration }}
+			out:fade={{ duration: fadeOutDuration }}
 		>
-			<h2 class="text-xl font-semibold">{message}</h2>
-			<progress class="progress progress-primary bg-base-100" />
+			<div
+				class="flex flex-col items-center justify-center gap-5 text-center w-1/2 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+			>
+				<h2 class="text-xl font-semibold">{message}</h2>
+				<progress class="progress progress-primary bg-base-100" />
+			</div>
 		</div>
-	</div>
-{/if}
+	{/if}
+</template>

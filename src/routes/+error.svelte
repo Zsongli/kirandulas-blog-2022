@@ -28,7 +28,7 @@
 			<div class="glitch-wrapper">
 				<h1 class="glitch text-3xl font-semibold" data-text={$page.status}>{$page.status}</h1>
 			</div>
-			<h2 class="text-xl">{messages[$page.status]}</h2>
+			<h2 class="text-xl">{messages[$page.status] ?? $page.error?.message}</h2>
 		</div>
 
 		<p>
