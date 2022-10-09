@@ -1,6 +1,6 @@
 <script lang="ts">
 	import CustomImage from "$lib/components/CustomImage.svelte";
-	import DayTemplate from "$lib/components/DayTemplate.svelte";
+	import ArticleContainer from "$lib/components/ArticleContainer.svelte";
 	let audio1: HTMLAudioElement;
 	let audio2: HTMLAudioElement;
 	let dead = false;
@@ -17,10 +17,10 @@
 	<title>Kirándulás - 1. Nap</title>
 </svelte:head>
 
-<DayTemplate>
-	<h1 class="text-2xl">A harmadik nap</h1>
+<ArticleContainer title="A harmadik nap">
 	<article>
-		<h2 class="text-xl mb-2">Kőszeg - Jurisics-vár</h2>
+		<h2>Jurisics-vár</h2>
+		<span class="subtitle">Kőszeg</span>
 		<p>
 			A harmadik és egyben utolsó napon gyors osszepakolás után útnak indultunk a nap első
 			megállójához Kőszeghez. Itt a Jurisics-várat látogattuk meg, és még tervben volt egy szabad
@@ -51,7 +51,8 @@
 		</div>
 	</article>
 	<article>
-		<h2 class="text-xl mb-2">Szombathely - Iseum</h2>
+		<h2>Iseum</h2>
+		<span class="subtitle">Szombathely</span>
 		<p>
 			Utolsó előtti megállónk Szombathely volt. Sajnos csak péntek volt, ezért nem volt teljes a
 			kirándulás :/ Először elmentünk megnézni az Iseumot, hosszabb nevén az Ízisz-múzeumot, ami a
@@ -85,4 +86,4 @@
 		<audio src="/audio/dry1.wav" bind:this={audio1} on:ended={() => (playing = false)} />
 		<audio src="/audio/dry2.wav" bind:this={audio2} on:ended={() => (playing = false)} />
 	</article>
-</DayTemplate>
+</ArticleContainer>
