@@ -22,7 +22,7 @@
 				</div>
 			</div>
 
-			<a class="hidden lg:flex btn btn-ghost normal-case text-xl gap-3" href="/">
+			<a class="hidden lg:flex btn btn-ghost normal-case text-xl gap-3 min-w-max" href="/">
 				<Fa {icon} />
 				{title}
 			</a>
@@ -30,7 +30,7 @@
 			<slot name="start" />
 		</div>
 
-		<a class="lg:hidden flex btn btn-ghost normal-case text-2xl gap-3" href="/">
+		<a class="lg:hidden flex btn btn-ghost normal-case text-2xl gap-3 flex-nowrap whitespace-nowrap overflow-visible" href="/">
 			<Fa {icon} size="1.2x" />
 			{title}
 		</a>
