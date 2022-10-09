@@ -1,16 +1,23 @@
 <script>
 	import CustomImage from "$lib/components/CustomImage.svelte";
-	import DayTemplate from "$lib/components/DayTemplate.svelte";
+	import ArticleContainer from "$lib/components/ArticleContainer.svelte";
 </script>
 
 <svelte:head>
 	<title>Kirándulás - 1. Nap</title>
 </svelte:head>
 
-<DayTemplate>
-	<h1 class="text-2xl">Az első nap</h1>
+<ArticleContainer title="Az első nap" date="2022. 09. 07" prevHref="#" nextHref="/nap2">
+	<p slot="description">
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consequuntur amet ducimus nam
+		nostrum eveniet alias neque, eum cupiditate fugiat minus doloribus fuga cumque ipsam facere
+		eligendi deserunt veniam iste reprehenderit laudantium magni? Quia deserunt cumque fugit vitae
+		ipsam eum ducimus tempore sapiente et, soluta ullam ipsa, consectetur veritatis molestiae!
+	</p>
+
 	<article>
-		<h2 class="text-xl mb-2">Tardos - Rádiómúzeum</h2>
+		<h2>Rádiómúzeum</h2>
+		<span class="subtitle">Tardos</span>
 		<p>
 			Az osztállyal az iskola előtt gyülekeztünk és 8:00 után már indultunk is Tardos felé, az első
 			megállónkhoz. Ide egy rádiómúzeumot mentünk meglátogatni. A múzeum egy teljesen hétköznapi
@@ -27,8 +34,10 @@
 		</p>
 		<img class="mx-auto my-6" src="/img/radio1.webp" alt="Rádiók" title="Rádiók" />
 	</article>
+	
 	<article>
-		<h2 class="text-xl mb-2">Tata - Kuny Domokos Múzeum / Tatai vár</h2>
+		<h2>Kuny Domokos Múzeum / Tatai vár</h2>
+		<span class="subtitle">Tata</span>
 		<p>
 			Következő megállónk Tata volt, itt meglátogattuk a Tatai várat. A vár körül egy várárok
 			található, ami a vár mögötti Öreg-tóval kapcsolódik össze. A víz magassága nem volt túl nagy,
@@ -50,15 +59,19 @@
 			<CustomImage src="/img/tataivar5.webp" desc="Romok" />
 			<CustomImage src="/img/tataivar6.webp" desc="A várárokban étkezde üzemel" />
 		</div>
-		
+
 		<div class="grid grid-cols-3 gap-4 my-6">
 			<CustomImage src="/img/tataivar7.webp" desc="Sírkő" />
 			<CustomImage src="/img/tataivar8.webp" desc="Mátyás-szobor" />
-			<CustomImage src="/img/tataivar9.webp" desc="Szobrot fotozó fotóst fotozó fotóst fotózó fotósról fotó" />
+			<CustomImage
+				src="/img/tataivar9.webp"
+				desc="Szobrot fotozó fotóst fotozó fotóst fotózó fotósról fotó"
+			/>
 		</div>
 	</article>
 	<article>
-		<h2 class="text-xl mb-2">Nagyszentjános - Biofarm / Tehenészet</h2>
+		<h2>Biofarm / Tehenészet</h2>
+		<span class="subtitle">Nagyszentjános</span>
 		<p>
 			Következő állomásunk a nagyszentjánosi Kisalföldi zrt. tehenészete volt. Itt kb. 1100 tejelő
 			tehén volt található, akinek élete szinte teljesen automatizálva lett gépek által. Amikor
@@ -71,7 +84,8 @@
 		<CustomImage class="mx-auto my-6" src="/img/teheneszet1.webp" desc="new List<Tehén>()" />
 	</article>
 	<article>
-		<h2 class="text-xl mb-2">Pannonhalma - Bencés apátság</h2>
+		<h2>Bencés apátság</h2>
+		<span class="subtitle">Pannonhalma</span>
 		<p>
 			A Pannonhalmi Főapátság volt következő megállónk. A monostor egy domb tetején állt, ahonnal el
 			lehetett látni egészen Győrig. A monostor több nagy épületből álló épületkomplexum, többek
@@ -80,8 +94,8 @@
 			fehér ónixkő, amely megtalálható volt a rózsaablakban is. Az oldalsó bejáraton kilépve
 			betekinthettünk a kerengőbe, az udvart körülölelő folyosóba. Itt tudtak gyorsan közlekedni a
 			szerzetesek a fontosabb helyek között. Hátrafordulva megtekinthettük a Porta Speciosa-t, a
-			kaput amin éppen kiléptünk. Ezután átmentünk a könyvtárba, ahol
-			több, mint 400 ezer kötet volt található (Persze nem volt mind kirakva). Több szobron, a domborműveken és a freskókon kívül a
+			kaput amin éppen kiléptünk. Ezután átmentünk a könyvtárba, ahol több, mint 400 ezer kötet volt
+			található (Persze nem volt mind kirakva). Több szobron, a domborműveken és a freskókon kívül a
 			hatalmas teremben középen egy nagy földgömböt is láthattunk.
 		</p>
 		<p>
@@ -104,4 +118,4 @@
 		</div>
 		<CustomImage src="/img/pannonhalma7.webp" desc="A könyvtár" />
 	</article>
-</DayTemplate>
+</ArticleContainer>

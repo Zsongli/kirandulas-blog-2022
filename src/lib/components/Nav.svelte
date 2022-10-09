@@ -8,7 +8,7 @@
 </script>
 
 <template>
-	<nav class="navbar grid grid-flow-col bg-base-100 rounded-2xl shadow-md">
+	<nav class="navbar grid grid-flow-col bg-base-100 rounded-2xl shadow-md ">
 		<div class="gap-2 place-self-start">
 			<div class="dropdown h-full lg:hidden">
 				<div tabindex="0" class="btn btn-ghost h-full">
@@ -16,7 +16,7 @@
 				</div>
 
 				<div
-					class="dropdown-content w-max bg-base-100 p-3 rounded-box shadow-lg border border-base-content border-opacity-10"
+					class="dropdown-content w-max bg-base-100 p-2 rounded-box shadow-lg border border-base-content border-opacity-10"
 				>
 					<slot name="center" />
 				</div>

@@ -26,13 +26,13 @@
 		<PageLoader message="Egy pillanat..." />
 	{/if}
 
-	<main class="grow py-4">
+	<main class="grow">
 		<slot />
 	</main>
 
 	<Footer>
 		<svelte:fragment slot="start">
-			<a href="/" class="link">
+			<a href="/" class="icon">
 				<Fa icon={faGlobeEurope} size="3x" />
 			</a>
 			<div class="flex flex-col">
@@ -44,18 +44,18 @@
 		</svelte:fragment>
 
 		<svelte:fragment slot="end">
-			<a rel="external" target="_blank" href="http://szlgbp.hu" class="link">
+			<a rel="external" target="_blank" href="http://szlgbp.hu" class="icon">
 				<Fa icon={szlgIcon} size="2x" />
 			</a>
 			<a
 				rel="external"
 				target="_blank"
 				href="https://github.com/Zsongli/kirandulas-blog-2022"
-				class="link"
+				class="icon"
 			>
 				<Fa icon={faGithub} size="2x" />
 			</a>
-			<a rel="external" target="_blank" href="https://kit.svelte.dev" class="link">
+			<a rel="external" target="_blank" href="https://kit.svelte.dev" class="icon">
 				<Fa icon={svelteIcon} size="2x" />
 			</a>
 		</svelte:fragment>

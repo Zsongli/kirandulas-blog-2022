@@ -13,7 +13,7 @@
 </template>
 
 <style lang="postcss">
-	footer :global(.link) {
+	footer :global(.icon) {
 		@apply hover:text-gray-500;
 		transition: 200ms;
 	}
