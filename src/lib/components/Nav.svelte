@@ -3,8 +3,8 @@
 	import { menuIcon } from "$lib/customIcons";
 	import type { IconDefinition } from "@fortawesome/free-solid-svg-icons";
 
-	export var title: string = "Title";
-	export var icon: IconDefinition | undefined = undefined;
+	export var title: string;
+	export var icon: IconDefinition;
 </script>
 
 <template>
@@ -23,15 +23,17 @@
 			</div>
 
 			<a class="hidden lg:flex btn btn-ghost normal-case text-xl gap-3" href="/">
-				<Fa {icon} /> {title}</a
-			>
+				<Fa {icon} />
+				{title}
+			</a>
 
 			<slot name="start" />
 		</div>
 
 		<a class="lg:hidden flex btn btn-ghost normal-case text-2xl gap-3" href="/">
-			<Fa {icon} size="1.2x" /> {title}</a
-		>
+			<Fa {icon} size="1.2x" />
+			{title}
+		</a>
 
 		<div class="hidden lg:flex place-self-center">
 			<slot name="center" />
