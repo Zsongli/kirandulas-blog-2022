@@ -61,6 +61,22 @@
 					"tárlatvezetőnk" körbevezetett minket és megmutatta az automata fejőgépet. A látogatásunk
 					végén még meg is etettek minket bőségesen péksüteményekkel.
 				</p>
+				<CustomImage
+					class="mx-auto my-6 w-4/5"
+					src="/img/teheneszet1.webp"
+					desc="new List<Tehén>()"
+				/>
+			</article>
+			<article>
+				<h2 class="text-xl mb-2">Pannonhalma - Bencés apátság</h2>
+				<p>A Pannonhalmi Főapátság volt következő megállónk.</p>
+				<div class="grid grid-cols-4 gap-4 my-6">
+					<CustomImage src="/img/pannonhalma1.webp" desc="A monostor" />
+					<CustomImage src="/img/pannonhalma2.webp" desc="Belülről" />
+					<CustomImage src="/img/pannonhalma3.webp" desc="Habsburg Ottó szíve itt van eltemetve" />
+					<CustomImage src="/img/pannonhalma5.webp" desc="Könyvtárban szobor" />
+				</div>
+				<CustomImage class="mx-auto my-6 w-4/5" src="/img/pannonhalma4.webp" desc="Oldalbejárat a kerengőből" />
 			</article>
 			<div>
 				<a href="#top" class="btn btn-primary gap-4">
