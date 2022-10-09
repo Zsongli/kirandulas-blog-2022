@@ -25,7 +25,7 @@
 			lehetőségünk volt meghallgatni többek között a legöregebb modell hangzását az abban a korban
 			jellemző zeneélménnyel kombinálva. (Elég hangulatos volt)
 		</p>
-		<img class="mx-auto my-6 w-2/3" src="/img/radio1.webp" alt="Rádiók" title="Rádiók" />
+		<img class="mx-auto my-6" src="/img/radio1.webp" alt="Rádiók" title="Rádiók" />
 	</article>
 	<article>
 		<h2 class="text-xl mb-2">Tata - Kuny Domokos Múzeum / Tatai vár</h2>
@@ -42,13 +42,20 @@
 			király tulajdonába került, aki gyakran jött ide időt tölteni. Kiegészítette az eredeti L alakú
 			várat U alakúra 4 saroktoronnyal.
 		</p>
-		<CustomImage
-			class="mx-auto my-6 w-4/5"
-			src="/img/tataivar1.webp"
-			desc="Tatai vár az Öreg-tó felől"
-		/>
-		<CustomImage class="mx-auto my-6 w-4/5" src="/img/tataivar2.webp" desc="Séta a hídon" />
-		<CustomImage class="mx-auto my-6 w-4/5" src="/img/tataivar3.webp" desc="Séta a vár felé" />
+		<div class="my-6 grid grid-cols-2 gap-4">
+			<CustomImage src="/img/tataivar1.webp" desc="Tatai vár az Öreg-tó felől" />
+			<CustomImage src="/img/tataivar2.webp" desc="Séta a hídon" />
+			<CustomImage src="/img/tataivar3.webp" desc="Séta a vár felé" />
+			<CustomImage src="/img/tataivar4.webp" desc="Makett a vár jelenlegi állapotáról" />
+			<CustomImage src="/img/tataivar5.webp" desc="Romok" />
+			<CustomImage src="/img/tataivar6.webp" desc="A várárokban étkezde üzemel" />
+		</div>
+		
+		<div class="grid grid-cols-3 gap-4 my-6">
+			<CustomImage src="/img/tataivar7.webp" desc="Sírkő" />
+			<CustomImage src="/img/tataivar8.webp" desc="Mátyás-szobor" />
+			<CustomImage src="/img/tataivar9.webp" desc="Szobrot fotozó fotóst fotozó fotóst fotózó fotósról fotó" />
+		</div>
 	</article>
 	<article>
 		<h2 class="text-xl mb-2">Nagyszentjános - Biofarm / Tehenészet</h2>
@@ -61,21 +68,40 @@
 			minket és megmutatta az automata fejőgépet. A látogatásunk végén még meg is etettek minket
 			bőségesen péksüteményekkel.
 		</p>
-		<CustomImage class="mx-auto my-6 w-4/5" src="/img/teheneszet1.webp" desc="new List<Tehén>()" />
+		<CustomImage class="mx-auto my-6" src="/img/teheneszet1.webp" desc="new List<Tehén>()" />
 	</article>
 	<article>
 		<h2 class="text-xl mb-2">Pannonhalma - Bencés apátság</h2>
-		<p>A Pannonhalmi Főapátság volt következő megállónk.</p>
-		<div class="grid grid-cols-4 gap-4 my-6">
-			<CustomImage src="/img/pannonhalma1.webp" desc="A monostor" />
-			<CustomImage src="/img/pannonhalma2.webp" desc="Belülről" />
-			<CustomImage src="/img/pannonhalma3.webp" desc="Habsburg Ottó szíve itt van eltemetve" />
-			<CustomImage src="/img/pannonhalma5.webp" desc="Könyvtárban szobor" />
+		<p>
+			A Pannonhalmi Főapátság volt következő megállónk. A monostor egy domb tetején állt, ahonnal el
+			lehetett látni egészen Győrig. A monostor több nagy épületből álló épületkomplexum, többek
+			között található volt itt bencés iskola és egy bazilika is. Az utóbbi, a Szent Márton-bazilika
+			volt a fő látványosság, amely 55 méteres magasságával tornyosült felénk. Fontos jelképe az
+			fehér ónixkő, amely megtalálható volt a rózsaablakban is. Az oldalsó bejáraton kilépve
+			betekinthettünk a kerengőbe, az udvart körülölelő folyosóba. Itt tudtak gyorsan közlekedni a
+			szerzetesek a fontosabb helyek között. Hátrafordulva megtekinthettük a Porta Speciosa-t, a
+			kaput amin éppen kiléptünk. Ezután átmentünk a könyvtárba, ahol
+			több, mint 400 ezer kötet volt található (Persze nem volt mind kirakva). Több szobron, a domborműveken és a freskókon kívül a
+			hatalmas teremben középen egy nagy földgömböt is láthattunk.
+		</p>
+		<p>
+			Az apátság tulajdonában áll többhektárnyi termőföld is, amin még máig is gazdálkodnak, szőlőt
+			és gyógynövényeket termesztenek.
+		</p>
+		<div class="grid grid-cols-3 gap-4 my-6">
+			<CustomImage src="/img/pannonhalma1.webp" desc="A bazilika kívülről" />
+			<CustomImage src="/img/pannonhalma2.webp" desc="A bazilika belülről" />
+			<CustomImage
+				src="/img/pannonhalma3.webp"
+				desc="Az altemplom. Itt lett elhelyezve Habsburg Ottó szívurnája"
+			/>
 		</div>
-		<CustomImage
-			class="mx-auto my-6 w-4/5"
-			src="/img/pannonhalma4.webp"
-			desc="Oldalbejárat a kerengőből"
-		/>
+		<CustomImage class="mx-auto my-6" src="/img/pannonhalma4.webp" desc="A Porta Speciosa" />
+
+		<div class="grid grid-cols-3 gap-4 my-6">
+			<CustomImage src="/img/pannonhalma5.webp" desc="I. Ferenc magyar király szobra" />
+			<CustomImage src="/img/pannonhalma6.webp" desc="Egy a sok teli könyvespolc közül" />
+		</div>
+		<CustomImage src="/img/pannonhalma7.webp" desc="A könyvtár" />
 	</article>
 </DayTemplate>

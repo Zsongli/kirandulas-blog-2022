@@ -14,7 +14,7 @@
 </script>
 
 <template>
-	<Nav title="Bruh" icon={faGlobeEurope}>
+	<Nav title="Kirandulas" icon={faGlobeEurope}>
 		<ul class="menu menu-horizontal gap-1" slot="center">
 			<li><a href="nap1">Első nap</a></li>
 			<li><a href="nap2">Második nap</a></li>
