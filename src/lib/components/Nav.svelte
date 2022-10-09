@@ -8,7 +8,7 @@
 </script>
 
 <template>
-	<nav class="navbar grid grid-flow-col bg-base-100 rounded-2xl shadow-md ">
+	<nav class="navbar grid grid-flow-col bg-base-100 rounded-2xl shadow-md">
 		<div class="gap-2 place-self-start">
 			<div class="dropdown h-full lg:hidden">
 				<div tabindex="0" class="btn btn-ghost h-full">
@@ -32,7 +32,9 @@
 
 		<a class="lg:hidden flex btn btn-ghost normal-case text-2xl gap-3 flex-nowrap whitespace-nowrap overflow-visible" href="/">
 			<Fa {icon} size="1.2x" />
-			{title}
+			<div class="xs:inline hidden">
+				{title}
+			</div>
 		</a>
 
 		<div class="hidden lg:flex place-self-center">
