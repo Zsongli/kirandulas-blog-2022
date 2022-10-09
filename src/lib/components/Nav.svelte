@@ -14,7 +14,7 @@
 				<Fa icon={menuIcon} />
 			</div>
 
-			<div class="dropdown-content w-max bg-base-100 p-3 rounded-box shadow-lg border-base-content border border-opacity-25">
+			<div class="dropdown-content w-max bg-base-100 p-3 rounded-box shadow-lg border border-base-content border-opacity-10">
 				<slot name="center" />
 			</div>
 		</div>
