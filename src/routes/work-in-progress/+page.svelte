@@ -3,6 +3,10 @@
 	import { faGithub } from "@fortawesome/free-brands-svg-icons";
 </script>
 
+<svelte:head>
+	<title>Fejlesztés alatt</title>
+</svelte:head>
+
 <template>
 	<div class="hero bg-neutral mt-[20vh]">
 		<div class="hero-content text-center">

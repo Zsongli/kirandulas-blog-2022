@@ -21,6 +21,7 @@
 	<div
 		class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center flex flex-col items-center justify-center gap-20"
 	>
+		<h1 class="text-3xl font-bold">Hiba történt...</h1>
 		<div class="flex flex-col items-center justify-center">
 			<div class="fixed opacity-5">
 				<Fa icon={faTriangleExclamation} size="12x" />
@@ -31,8 +32,8 @@
 			<h2 class="text-xl">{messages[$page.status] ?? $page.error?.message}</h2>
 		</div>
 
-		<p>
-			Őszintén sajnáljuk. Megpróbálhatsz másra keresni, vagy visszatérhetsz a
+		<p class="text-sm">
+			<span class="italic">Őszintén</span> sajnáljuk. Megpróbálhatsz másra keresni, vagy visszatérhetsz a
 			<a class="link" href="/">főoldalra</a>.
 		</p>
 	</div>

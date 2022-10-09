@@ -15,13 +15,11 @@
 
 <template>
 	<Nav title="Bruh" icon={faGlobeEurope}>
-		<svelte:fragment slot="center">
-			<ul class="menu menu-horizontal gap-1">
-				<li><a href="nap1">Első nap</a></li>
-				<li><a href="nap2">Második nap</a></li>
-				<li><a href="nap3">Harmadik nap</a></li>
-			</ul>
-		</svelte:fragment>
+		<ul class="menu menu-horizontal gap-1" slot="center">
+			<li><a href="nap1">Első nap</a></li>
+			<li><a href="nap2">Második nap</a></li>
+			<li><a href="nap3">Harmadik nap</a></li>
+		</ul>
 	</Nav>
 
 	{#if $navigating != null}

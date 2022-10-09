@@ -4,6 +4,10 @@
 	import { faArrowTurnUp } from "@fortawesome/free-solid-svg-icons";
 </script>
 
+<svelte:head>
+	<title>Kirándulás - 1. Nap</title>
+</svelte:head>
+
 <template>
 	<div class="max-w-5xl mx-auto bg-base-200" id="top">
 		<div class="max-w-4xl mx-auto flex flex-col gap-8 p-4">
@@ -71,7 +75,3 @@
 		</div>
 	</div>
 </template>
-
-<svelte:head>
-	<title>Kirándulás - 1. Nap</title>
-</svelte:head>
