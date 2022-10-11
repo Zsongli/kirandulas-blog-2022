@@ -1,13 +1,13 @@
 <script>
-	import CustomImage from "$lib/components/CustomImage.svelte";
+	import ExpandablePicture from "$lib/components/ExpandablePicture.svelte";
 	import ArticleContainer from "$lib/components/ArticleContainer.svelte";
 </script>
 
 <svelte:head>
-	<title>Kirándulás - 1. Nap</title>
+	<title>Kirándulás Blog 2022 - 1. nap</title>
 </svelte:head>
 
-<ArticleContainer title="Az első nap" date="2022. 09. 07" prevHref="#" nextHref="/nap2">
+<ArticleContainer title="Az első nap" date="2022. 09. 07" nextHref="/nap2">
 	<p slot="description">
 		Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consequuntur amet ducimus nam
 		nostrum eveniet alias neque, eum cupiditate fugiat minus doloribus fuga cumque ipsam facere
@@ -32,7 +32,7 @@
 			lehetőségünk volt meghallgatni többek között a legöregebb modell hangzását az abban a korban
 			jellemző zeneélménnyel kombinálva. (Elég hangulatos volt)
 		</p>
-		<img class="mx-auto my-6" src="/img/radio1.webp" alt="Rádiók" title="Rádiók" />
+		<ExpandablePicture class="my-4" src="/img/radio1.webp" desc = "Rádiók" />
 	</article>
 	
 	<article>
@@ -52,18 +52,18 @@
 			várat U alakúra 4 saroktoronnyal.
 		</p>
 		<div class="my-6 grid grid-cols-2 gap-4">
-			<CustomImage src="/img/tataivar1.webp" desc="Tatai vár az Öreg-tó felől" />
-			<CustomImage src="/img/tataivar2.webp" desc="Séta a hídon" />
-			<CustomImage src="/img/tataivar3.webp" desc="Séta a vár felé" />
-			<CustomImage src="/img/tataivar4.webp" desc="Makett a vár jelenlegi állapotáról" />
-			<CustomImage src="/img/tataivar5.webp" desc="Romok" />
-			<CustomImage src="/img/tataivar6.webp" desc="A várárokban étkezde üzemel" />
+			<ExpandablePicture src="/img/tataivar1.webp" desc="Tatai vár az Öreg-tó felől" source="https://commons.wikimedia.org/wiki/File:Tatai_vár-_az_Öreg_tó_felől.JPG" />
+			<ExpandablePicture src="/img/tataivar2.webp" desc="Séta a hídon" />
+			<ExpandablePicture src="/img/tataivar3.webp" desc="Séta a vár felé" />
+			<ExpandablePicture src="/img/tataivar4.webp" desc="Makett a vár jelenlegi állapotáról" />
+			<ExpandablePicture src="/img/tataivar5.webp" desc="Romok" />
+			<ExpandablePicture src="/img/tataivar6.webp" desc="A várárokban étkezde üzemel" />
 		</div>
 
 		<div class="grid grid-cols-3 gap-4 my-6">
-			<CustomImage src="/img/tataivar7.webp" desc="Sírkő" />
-			<CustomImage src="/img/tataivar8.webp" desc="Mátyás-szobor" />
-			<CustomImage
+			<ExpandablePicture src="/img/tataivar7.webp" desc="Sírkő" />
+			<ExpandablePicture src="/img/tataivar8.webp" desc="Mátyás-szobor" />
+			<ExpandablePicture
 				src="/img/tataivar9.webp"
 				desc="Szobrot fotozó fotóst fotozó fotóst fotózó fotósról fotó"
 			/>
@@ -81,7 +81,7 @@
 			minket és megmutatta az automata fejőgépet. A látogatásunk végén még meg is etettek minket
 			bőségesen péksüteményekkel.
 		</p>
-		<CustomImage class="mx-auto my-6" src="/img/teheneszet1.webp" desc="new List<Tehén>()" />
+		<ExpandablePicture class="my-4" src="/img/teheneszet1.webp" desc="new List<Tehén>()" />
 	</article>
 	<article>
 		<h2>Bencés apátság</h2>
@@ -103,19 +103,19 @@
 			és gyógynövényeket termesztenek.
 		</p>
 		<div class="grid grid-cols-3 gap-4 my-6">
-			<CustomImage src="/img/pannonhalma1.webp" desc="A bazilika kívülről" />
-			<CustomImage src="/img/pannonhalma2.webp" desc="A bazilika belülről" />
-			<CustomImage
+			<ExpandablePicture src="/img/pannonhalma1.webp" desc="A bazilika kívülről" />
+			<ExpandablePicture src="/img/pannonhalma2.webp" desc="A bazilika belülről" />
+			<ExpandablePicture
 				src="/img/pannonhalma3.webp"
 				desc="Az altemplom. Itt lett elhelyezve Habsburg Ottó szívurnája"
 			/>
 		</div>
-		<CustomImage class="mx-auto my-6" src="/img/pannonhalma4.webp" desc="A Porta Speciosa" />
+		<ExpandablePicture class="mx-auto my-6" src="/img/pannonhalma4.webp" desc="A Porta Speciosa" />
 
 		<div class="grid grid-cols-3 gap-4 my-6">
-			<CustomImage src="/img/pannonhalma5.webp" desc="I. Ferenc magyar király szobra" />
-			<CustomImage src="/img/pannonhalma6.webp" desc="Egy a sok teli könyvespolc közül" />
+			<ExpandablePicture src="/img/pannonhalma5.webp" desc="I. Ferenc magyar király szobra" />
+			<ExpandablePicture src="/img/pannonhalma6.webp" desc="Egy a sok teli könyvespolc közül" />
 		</div>
-		<CustomImage src="/img/pannonhalma7.webp" desc="A könyvtár" />
+		<ExpandablePicture src="/img/pannonhalma7.webp" desc="A könyvtár" />
 	</article>
 </ArticleContainer>

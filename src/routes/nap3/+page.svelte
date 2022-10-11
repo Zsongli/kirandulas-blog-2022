@@ -1,10 +1,12 @@
 <script lang="ts">
-	import CustomImage from "$lib/components/CustomImage.svelte";
+	import ExpandablePicture from "$lib/components/ExpandablePicture.svelte";
 	import ArticleContainer from "$lib/components/ArticleContainer.svelte";
+
 	let audio1: HTMLAudioElement;
 	let audio2: HTMLAudioElement;
 	let dead = false;
 	let playing = false;
+
 	function funny() {
 		if (playing) return;
 		playing = true;
@@ -14,10 +16,10 @@
 </script>
 
 <svelte:head>
-	<title>Kirándulás - 1. Nap</title>
+	<title>Kirándulás Blog 2022 - 3. nap</title>
 </svelte:head>
 
-<ArticleContainer title="A harmadik nap">
+<ArticleContainer title="A harmadik nap" date="2022. 09. 09" prevHref="/nap2">
 	<article>
 		<h2>Jurisics-vár</h2>
 		<span class="subtitle">Kőszeg</span>
@@ -39,15 +41,15 @@
 			lett meg. Ez a feladatsor valójában egy verseny volt, hogy ki tud több kérdést helyesen
 			megválaszolni. Nekünk sikerült is 1 hibával, amivel elsők lettünk. (50%-os matek ötös (bruh))
 		</p>
-		<div class="mt-6 mb-4 grid grid-cols-2 gap-4">
-			<CustomImage src="/img/jurisics-outer.jpg" desc="A vár kívülről" />
-			<CustomImage src="/img/jurisics-garden.jpg" desc="A belső kert ketreccel" />
+		<div class="mt-6 mb-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+			<ExpandablePicture src="/img/jurisics-outer.jpg" desc="A vár kívülről" />
+			<ExpandablePicture src="/img/jurisics-garden.jpg" desc="A belső kert ketreccel" />
 		</div>
-		<div class="mb-6 mt-4 grid grid-cols-4 gap-4">
-			<CustomImage src="/img/jurisics-miklos.jpg" desc="Jurisics Miklós szobra" />
-			<CustomImage src="/img/jurisics-bell.jpg" desc="Ébresztő mindenkinek" />
-			<CustomImage src="/img/jurisics-1v1.jpg" desc="Intenzív leszámolás" />
-			<CustomImage src="/img/jurisics-shoe.jpg" desc="Győzedelmi cipő felhúzva" />
+		<div class="mb-6 mt-4 grid grid-cols-2 md:grid-cols-4 gap-4">
+			<ExpandablePicture src="/img/jurisics-miklos.jpg" desc="Jurisics Miklós szobra" />
+			<ExpandablePicture src="/img/jurisics-bell.jpg" desc="Ébresztő mindenkinek" />
+			<ExpandablePicture src="/img/jurisics-1v1.jpg" desc="Intenzív leszámolás" />
+			<ExpandablePicture src="/img/jurisics-shoe.jpg" desc="Győzedelmi cipő felhúzva" />
 		</div>
 	</article>
 	<article>
@@ -66,22 +68,15 @@
 			mint száz méterre levő pizzázóba mentünk enni. Viszonylag gyorsan kész lett, így még maradt
 			egy kis időnk körbenézni a környéken.
 		</p>
-		<div class="mt-6 mb-4 grid grid-cols-4 gap-4">
-			<CustomImage src="/img/szombat-is-front.jpg" desc="Az Iseum" />
-			<CustomImage src="/img/szombat-is-isis.jpg" desc="Ízisz isteennő szobra" />
-			<CustomImage src="/img/szombat-is-explain.jpg" desc="A tárlatvezető magyaráz" />
-			<CustomImage src="/img/szombat-eat.jpg" desc="Éhes gyermek pizzát eszik" />
+		<div class="mt-6 mb-4 grid grid-cols-2 md:grid-cols-4 gap-4">
+			<ExpandablePicture src="/img/szombat-is-front.jpg" desc="Az Iseum" />
+			<ExpandablePicture src="/img/szombat-is-isis.jpg" desc="Ízisz isteennő szobra" />
+			<ExpandablePicture src="/img/szombat-is-explain.jpg" desc="A tárlatvezető magyaráz" />
+			<ExpandablePicture src="/img/szombat-eat.jpg" desc="Éhes gyermek pizzát eszik" />
 		</div>
-		<div class="mb-6 mt-4 grid grid-cols-2 gap-4">
-			<div class="relative">
-				<CustomImage src="/img/szombat-is-dry.jpg" desc="💀💀" />
-				<div
-					class="absolute bottom-[0%] left-[15%] right-[15%] top-[70%]"
-					on:click={funny}
-					title="Ne kattints rám"
-				/>
-			</div>
-			<CustomImage src="/img/szombat-is-pieces.jpg" desc="Márványdarabok a lerombolt szentélyből" />
+		<div class="mb-6 mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+			<ExpandablePicture src="/img/szombat-is-dry.jpg" desc="💀💀" on:click= {funny} />
+			<ExpandablePicture src="/img/szombat-is-pieces.jpg" desc="Márványdarabok a lerombolt szentélyből" />
 		</div>
 		<audio src="/audio/dry1.wav" bind:this={audio1} on:ended={() => (playing = false)} />
 		<audio src="/audio/dry2.wav" bind:this={audio2} on:ended={() => (playing = false)} />
