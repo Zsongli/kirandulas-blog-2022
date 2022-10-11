@@ -75,8 +75,11 @@
 			<ExpandablePicture src="/img/szombat-eat.jpg" desc="Éhes gyermek pizzát eszik" />
 		</div>
 		<div class="mb-6 mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
-			<ExpandablePicture src="/img/szombat-is-dry.jpg" desc="💀💀" on:click= {funny} />
-			<ExpandablePicture src="/img/szombat-is-pieces.jpg" desc="Márványdarabok a lerombolt szentélyből" />
+			<ExpandablePicture src="/img/szombat-is-dry.jpg" desc="💀💀" on:click={funny} />
+			<ExpandablePicture
+				src="/img/szombat-is-pieces.jpg"
+				desc="Márványdarabok a lerombolt szentélyből"
+			/>
 		</div>
 		<audio src="/audio/dry1.wav" bind:this={audio1} on:ended={() => (playing = false)} />
 		<audio src="/audio/dry2.wav" bind:this={audio2} on:ended={() => (playing = false)} />
