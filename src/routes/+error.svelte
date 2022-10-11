@@ -15,7 +15,15 @@
 		501: "Nincs megvalósítva",
 		502: "Rossz átjáró"
 	};
+
+	function getMessage(status: number, fallback?: string) {
+		return messages[status] ?? fallback ?? "Ismeretlen";
+	}
 </script>
+
+<svelte:head>
+	<title>{$page.status} - {getMessage($page.status, $page.error?.message)}</title>
+</svelte:head>
 
 <template>
 	<div
@@ -29,7 +37,7 @@
 			<div class="glitch-wrapper">
 				<h1 class="glitch text-3xl font-semibold" data-text={$page.status}>{$page.status}</h1>
 			</div>
-			<h2 class="text-xl">{messages[$page.status] ?? $page.error?.message}</h2>
+			<h2 class="text-xl">{getMessage($page.status, $page.error?.message)}</h2>
 		</div>
 
 		<p class="text-sm">
