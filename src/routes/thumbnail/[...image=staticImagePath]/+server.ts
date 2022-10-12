@@ -8,15 +8,17 @@ const cache = new Cache<string, Buffer>((buffer) => buffer.byteLength, 1024 * 10
 const size = 360; // shorter side in pixels
 const format = Jimp.MIME_JPEG;
 
+const cachedImage = (image: Buffer) => new Response(image, {
+    headers: {
+        "Content-Type": format,
+        "Cache-Control": "public, max-age=604800, immutable"
+    }
+});
 
 export async function GET({ params, url }: RequestEvent): Promise<Response> {
 
     //cache hit
-    if (cache.has(params.image)) return new Response(cache.get(params.image), {
-        headers: {
-            "Content-Type": format,
-        }
-    });
+    if (cache.has(params.image)) return cachedImage(cache.get(params.image)!);
 
     // cache miss
     const res = await fetch(new URL(params.image, url.origin), {
@@ -37,9 +39,5 @@ export async function GET({ params, url }: RequestEvent): Promise<Response> {
     const processedImageBuffer = await processedImage.getBufferAsync(format);
     cache.set(params.image, processedImageBuffer);
 
-    return new Response(processedImageBuffer, {
-        headers: {
-            "Content-Type": format,
-        }
-    });
+    return cachedImage(processedImageBuffer);
 }
