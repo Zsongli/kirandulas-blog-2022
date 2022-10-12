@@ -7,23 +7,24 @@
 	import { cubicIn, cubicOut } from "svelte/easing";
 
 	export var animationDuration = 400;
-	export var desc: string;
+	export var src: string;
+	export var title: string;
 	export var source: string | undefined = undefined;
 
-	var show = false;
+	var showFull = false;
+	var doneLoadingThumbnail: boolean = false;
 	var figure: HTMLElement;
 	var fullImage: HTMLElement;
 
 	var translationOffset: { offsetX: number; offsetY: number };
 	var thumbnailSize: { scaleX: number; scaleY: number };
 
-	function showFull(value: boolean) {
+	function setShowFull(value: boolean) {
 		const figureRect = figure.getBoundingClientRect();
 		thumbnailSize = {
 			scaleX: figureRect.width / window.innerWidth,
 			scaleY: figureRect.height / window.innerHeight
 		};
-		console.log(thumbnailSize);
 		translationOffset = {
 			offsetX: figureRect.x + figureRect.width / 2 - window.innerWidth / 2, // assuming the image's center point is at the center of the viewport
 			offsetY: figureRect.y + figureRect.height / 2 - window.innerHeight / 2
@@ -31,44 +32,45 @@
 
 		if (value) {
 			document.documentElement.style.overflow = "hidden";
-			show = true;
+			showFull = true;
 		} else {
 			document.documentElement.style.overflow = "auto";
-			show = false;
+			showFull = false;
 		}
 	}
 
 	function keyPressed(e: KeyboardEvent) {
-		if (!show || e.key !== "Escape") return;
-		showFull(false);
+		if (!showFull || e.key !== "Escape") return;
+		setShowFull(false);
 	}
 </script>
 
 <svelte:window on:keyup={keyPressed} />
 
 <template>
-	{#if show}
+	{#if showFull}
 		<div
 			class="fixed top-0 left-0 w-full h-screen z-50 bg-black bg-opacity-75 flex flex-col items-center justify-center"
 			in:fade={{ duration: animationDuration, easing: cubicOut }}
 			out:fade={{ duration: animationDuration, easing: cubicIn }}
 		>
 			<div
-				class="w-full h-[calc(100%-2*1rem)] relative flex flex-col items-center justify-center shrink p-8 gap-4 text-center"
+				class="w-full h-[calc(100%-3rem)] relative flex flex-col items-center justify-center shrink p-8 gap-4 text-center"
 			>
 				<div class="flex items-center gap-4 justify-evenly w-fit">
 					<button
-						class="btn glass rounded-full aspect-square opacity-50 hover:opacity-100 transition-opacity"
-						on:click={() => showFull(false)}
+						class="btn rounded-full btn-sm md:btn-md aspect-square glass opacity-50 hover:opacity-100 transition-opacity"
+						on:click={() => setShowFull(false)}
 					>
 						<Fa icon={faClose} size="1.25x" />
 					</button>
-					<h1 class="font-semibold text-lg md:text-2xl">{desc}</h1>
+					<h1 class="font-semibold text-lg md:text-2xl">{title}</h1>
 				</div>
 				<img
 					{...$$restProps}
 					class="max-h-full block rounded-box bg-base-300 shadow-2xl"
-					alt={$$props.alt ?? desc}
+					{src}
+					alt={$$props.alt ?? title}
 					loading="lazy"
 					decoding="async"
 					bind:this={fullImage}
@@ -99,18 +101,22 @@
 	{/if}
 
 	<div class="card bg-base-100 shadow-xl text-center {$$props.class ?? ''}">
-		<figure class="overflow-hidden" bind:this={figure} on:click={() => showFull(true)}>
+		<figure class="overflow-hidden" bind:this={figure} on:click={() => setShowFull(true)}>
 			<img
 				{...$$restProps}
-				class="hover:scale-[102%] transition-transform cursor-pointer"
-				alt={$$props.alt ?? desc}
-				title={$$props.title ?? desc}
-				loading="lazy"
-				decoding="async"
+				class="hover:scale-[102%] transition-transform cursor-pointer {doneLoadingThumbnail ? '' : 'w-0 h-0'}"
+				alt={$$props.alt ?? title}
+				src="/thumbnail{src}"
+				{title}
+				on:load={() => (doneLoadingThumbnail = true)}
+				on:error={() => (doneLoadingThumbnail = true)}
 			/>
+			{#if !doneLoadingThumbnail}
+				<div class="btn no-animation loading bg-transparent border-0">Előnézet letöltése...</div>
+			{/if}
 		</figure>
 		<div class="card-body items-center justify-evenly gap-0 p-2 sm:p-4">
-			<span class="card-title text-base sm:text-lg block w-fit" on:click>{desc}</span>
+			<span class="card-title text-base sm:text-lg block w-fit" on:click>{title}</span>
 		</div>
 	</div>
 </template>

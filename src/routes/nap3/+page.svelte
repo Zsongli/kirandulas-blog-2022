@@ -42,14 +42,14 @@
 			megválaszolni. Nekünk sikerült is 1 hibával, amivel elsők lettünk. (50%-os matek ötös (bruh))
 		</p>
 		<div class="mt-6 mb-4 grid grid-cols-1 md:grid-cols-2 gap-4">
-			<ExpandablePicture src="/img/jurisics-outer.jpg" desc="A vár kívülről" />
-			<ExpandablePicture src="/img/jurisics-garden.jpg" desc="A belső kert ketreccel" />
+			<ExpandablePicture src="/img/jurisics-outer.jpg" title="A vár kívülről" />
+			<ExpandablePicture src="/img/jurisics-garden.jpg" title="A belső kert ketreccel" />
 		</div>
 		<div class="mb-6 mt-4 grid grid-cols-2 md:grid-cols-4 gap-4">
-			<ExpandablePicture src="/img/jurisics-miklos.jpg" desc="Jurisics Miklós szobra" />
-			<ExpandablePicture src="/img/jurisics-bell.jpg" desc="Ébresztő mindenkinek" />
-			<ExpandablePicture src="/img/jurisics-1v1.jpg" desc="Intenzív leszámolás" />
-			<ExpandablePicture src="/img/jurisics-shoe.jpg" desc="Győzedelmi cipő felhúzva" />
+			<ExpandablePicture src="/img/jurisics-miklos.jpg" title="Jurisics Miklós szobra" />
+			<ExpandablePicture src="/img/jurisics-bell.jpg" title="Ébresztő mindenkinek" />
+			<ExpandablePicture src="/img/jurisics-1v1.jpg" title="Intenzív leszámolás" />
+			<ExpandablePicture src="/img/jurisics-shoe.jpg" title="Győzedelmi cipő felhúzva" />
 		</div>
 	</article>
 	<article>
@@ -69,16 +69,16 @@
 			egy kis időnk körbenézni a környéken.
 		</p>
 		<div class="mt-6 mb-4 grid grid-cols-2 md:grid-cols-4 gap-4">
-			<ExpandablePicture src="/img/szombat-is-front.jpg" desc="Az Iseum" />
-			<ExpandablePicture src="/img/szombat-is-isis.jpg" desc="Ízisz isteennő szobra" />
-			<ExpandablePicture src="/img/szombat-is-explain.jpg" desc="A tárlatvezető magyaráz" />
-			<ExpandablePicture src="/img/szombat-eat.jpg" desc="Éhes gyermek pizzát eszik" />
+			<ExpandablePicture src="/img/szombat-is-front.jpg" title="Az Iseum" />
+			<ExpandablePicture src="/img/szombat-is-isis.jpg" title="Ízisz isteennő szobra" />
+			<ExpandablePicture src="/img/szombat-is-explain.jpg" title="A tárlatvezető magyaráz" />
+			<ExpandablePicture src="/img/szombat-eat.jpg" title="Éhes gyermek pizzát eszik" />
 		</div>
 		<div class="mb-6 mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
-			<ExpandablePicture src="/img/szombat-is-dry.jpg" desc="💀💀" on:click={funny} />
+			<ExpandablePicture src="/img/szombat-is-dry.jpg" title="💀💀" on:click={funny} />
 			<ExpandablePicture
 				src="/img/szombat-is-pieces.jpg"
-				desc="Márványdarabok a lerombolt szentélyből"
+				title="Márványdarabok a lerombolt szentélyből"
 			/>
 		</div>
 		<audio src="/audio/dry1.wav" bind:this={audio1} on:ended={() => (playing = false)} />
