@@ -114,7 +114,7 @@
 		<figure class="overflow-hidden" bind:this={figure} on:click={() => setShowFull(true)}>
 			<img
 				{...$$restProps}
-				class="hover:scale-[102%] transition-transform cursor-pointer {doneLoadingThumbnail ? '' : 'w-0 h-0'}"
+				class="hover:scale-[102%] transition-transform cursor-pointer w-full {doneLoadingThumbnail ? '' : 'w-0 h-0'}"
 				alt={$$props.alt ?? title}
 				src="/thumbnail{src}"
 				{title}
