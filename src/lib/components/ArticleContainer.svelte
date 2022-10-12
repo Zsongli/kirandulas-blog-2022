@@ -12,7 +12,7 @@
 	<div class="max-w-5xl mx-auto bg-base-200 pt-4 pb-16">
 		<div class="max-w-4xl mx-auto px-4">
 			<div class="absolute top-0 invisible" id="top" />
-			
+
 			<section class="leading-7">
 				<div class="flex flex-col w-11/12 m-auto justify-around">
 					<h1 class="uppercase font-bold text-4xl md:text-5xl text-center p-8">{title}</h1>
@@ -25,34 +25,39 @@
 					<slot />
 				</div>
 			</section>
-			
+
 			<div class="divider" />
-			
-			<div class="flex items-center justify-around gap-4 flex-wrap">
+
+			<div class="btn-group flex btn-group-vertical sm:btn-group-horizontal w-fit m-auto">
 				{#if prevHref}
-				<a href={prevHref} class="btn btn-primary gap-4 w-40 flex-nowrap">
-					<Fa icon={faArrowLeft} size="1.5x" />
-					Előző
-				</a>
+					<a href={prevHref} class="btn btn-primary gap-4 flex-nowrap">
+						<Fa icon={faArrowLeft} size="1.5x" />
+						Előző
+					</a>
 				{/if}
-				<button class="btn btn-secondary gap-4 w-48 flex-nowrap" on:click={()=>scrollTo(0, 0)}>
+				<!-- must be an a tag to be in a button group :/ -->
+				<a
+					href={undefined}
+					class="btn btn-secondary gap-4 flex-nowrap"
+					on:click={() => scrollTo(0, 0)}
+				>
 					Vissza az elejére
 					<Fa icon={faArrowTurnUp} size="1.5x" />
-				</button>
-				{#if nextHref}
-				<a href={nextHref} class="btn btn-primary gap-4 w-40 flex-nowrap">
-					Következő
-					<Fa icon={faArrowRight} size="1.5x" />
 				</a>
+				{#if nextHref}
+					<a href={nextHref} class="btn btn-primary gap-4 flex-nowrap">
+						Következő
+						<Fa icon={faArrowRight} size="1.5x" />
+					</a>
 				{/if}
 			</div>
 		</div>
 	</div>
 </template>
-	
-	<style lang="postcss">
-		.description-container > :global(p) {
-			@apply md:text-lg italic text-center p-4;
+
+<style lang="postcss">
+	.description-container > :global(p) {
+		@apply md:text-lg italic text-center p-4;
 	}
 
 	section :global(article) :global(h2) {
