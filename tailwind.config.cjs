@@ -14,9 +14,9 @@ const config = {
 	daisyui: {
 		themes: [
 			{
-				default: {
+				dark: {
 					"primary": "#2e31db",
-					"secondary": "#d1c413",
+					"secondary": "#142f87",
 					"accent": "#148669",
 					"neutral": "#1d1d24",
 					"base-100": "#23222a",
