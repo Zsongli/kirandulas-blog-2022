@@ -21,6 +21,13 @@
 
 <template>
 	<ArticleContainer title="A harmadik nap" date="2022. 09. 09" prevHref="/nap2">
+		<p slot="description">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, a atque quis sint fugiat
+			inventore numquam. Quas vero architecto, aliquid sint similique quibusdam provident vitae
+			dolorum laboriosam officia, dignissimos ducimus, labore sapiente at! Eveniet, unde ea corporis
+			atque beatae maiores dolore aliquid totam aperiam aliquam voluptates iste! Inventore, facilis
+			harum.
+		</p>
 		<article>
 			<h2>Jurisics-vár</h2>
 			<span class="subtitle">Kőszeg</span>
