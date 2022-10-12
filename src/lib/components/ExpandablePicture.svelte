@@ -20,15 +20,25 @@
 	var thumbnailSize: { scaleX: number; scaleY: number };
 
 	function setShowFull(value: boolean) {
+
 		const figureRect = figure.getBoundingClientRect();
-		thumbnailSize = {
-			scaleX: figureRect.width / window.innerWidth,
-			scaleY: figureRect.height / window.innerHeight
-		};
+		
 		translationOffset = {
 			offsetX: figureRect.x + figureRect.width / 2 - window.innerWidth / 2, // assuming the image's center point is at the center of the viewport
 			offsetY: figureRect.y + figureRect.height / 2 - window.innerHeight / 2
 		};
+
+		if(window.innerHeight > window.innerWidth) {
+			thumbnailSize = {
+				scaleX: figureRect.width / window.innerWidth,
+				scaleY: figureRect.height / (window.innerWidth * (figureRect.height / figureRect.width))
+			};
+		} else {
+			thumbnailSize = {
+				scaleX: figureRect.width / (window.innerHeight * (figureRect.width / figureRect.height)),
+				scaleY: figureRect.height / window.innerHeight
+			};
+		}
 
 		if (value) {
 			document.documentElement.style.overflow = "hidden";
