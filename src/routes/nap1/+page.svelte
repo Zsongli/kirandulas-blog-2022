@@ -33,7 +33,7 @@
 				látogatásunk során lehetőségünk volt meghallgatni többek között a legöregebb modell
 				hangzását az abban a korban jellemző zeneélménnyel kombinálva. (Elég hangulatos volt)
 			</p>
-			<ExpandablePicture class="my-4" src="/img/radio1.webp" title="Rádiók" />
+			<ExpandablePicture class="my-4" src="/img/radio1.jpg" title="Rádiók" />
 		</article>
 
 		<article>
@@ -54,22 +54,22 @@
 			</p>
 			<div class="my-6 grid grid-cols-2 gap-4">
 				<ExpandablePicture
-					src="/img/tataivar1.webp"
+					src="/img/tataivar1.jpg"
 					title="Tatai vár az Öreg-tó felől"
 					source="https://commons.wikimedia.org/wiki/File:Tatai_vár-_az_Öreg_tó_felől.JPG"
 				/>
-				<ExpandablePicture src="/img/tataivar2.webp" title="Séta a hídon" />
-				<ExpandablePicture src="/img/tataivar3.webp" title="Séta a vár felé" />
-				<ExpandablePicture src="/img/tataivar4.webp" title="Makett a vár jelenlegi állapotáról" />
-				<ExpandablePicture src="/img/tataivar5.webp" title="Romok" />
-				<ExpandablePicture src="/img/tataivar6.webp" title="A várárokban étkezde üzemel" />
+				<ExpandablePicture src="/img/tataivar2.jpg" title="Séta a hídon" />
+				<ExpandablePicture src="/img/tataivar3.jpg" title="Séta a vár felé" />
+				<ExpandablePicture src="/img/tataivar4.jpg" title="Makett a vár jelenlegi állapotáról" />
+				<ExpandablePicture src="/img/tataivar5.jpg" title="Romok" />
+				<ExpandablePicture src="/img/tataivar6.jpg" title="A várárokban étkezde üzemel" />
 			</div>
 
 			<div class="grid grid-cols-3 gap-4 my-6">
-				<ExpandablePicture src="/img/tataivar7.webp" title="Sírkő" />
-				<ExpandablePicture src="/img/tataivar8.webp" title="Mátyás-szobor" />
+				<ExpandablePicture src="/img/tataivar7.jpg" title="Sírkő" />
+				<ExpandablePicture src="/img/tataivar8.jpg" title="Mátyás-szobor" />
 				<ExpandablePicture
-					src="/img/tataivar9.webp"
+					src="/img/tataivar9.jpg"
 					title="Szobrot fotozó fotóst fotozó fotóst fotózó fotósról fotó"
 				/>
 			</div>
@@ -86,7 +86,7 @@
 				körbevezetett minket és megmutatta az automata fejőgépet. A látogatásunk végén még meg is
 				etettek minket bőségesen péksüteményekkel.
 			</p>
-			<ExpandablePicture class="my-4" src="/img/teheneszet1.webp" title="new List<Tehén>()" />
+			<ExpandablePicture class="my-4" src="/img/teheneszet1.jpg" title="new List<Tehén>()" />
 		</article>
 		<article>
 			<h2>Bencés apátság</h2>
@@ -109,21 +109,21 @@
 				szőlőt és gyógynövényeket termesztenek.
 			</p>
 			<div class="grid grid-cols-3 gap-4 my-6">
-				<ExpandablePicture src="/img/pannonhalma1.webp" title="A bazilika kívülről" />
-				<ExpandablePicture src="/img/pannonhalma2.webp" title="A bazilika belülről" />
-				<ExpandablePicture src="/img/pannonhalma3.webp" title="Az altemplom" />
+				<ExpandablePicture src="/img/pannonhalma1.jpg" title="A bazilika kívülről" />
+				<ExpandablePicture src="/img/pannonhalma2.jpg" title="A bazilika belülről" />
+				<ExpandablePicture src="/img/pannonhalma3.jpg" title="Az altemplom" />
 			</div>
 			<ExpandablePicture
 				class="mx-auto my-6"
-				src="/img/pannonhalma4.webp"
+				src="/img/pannonhalma4.jpg"
 				title="A Porta Speciosa"
 			/>
 
 			<div class="grid grid-cols-3 gap-4 my-6">
-				<ExpandablePicture src="/img/pannonhalma5.webp" title="I. Ferenc magyar király szobra" />
-				<ExpandablePicture src="/img/pannonhalma6.webp" title="Egy a sok teli könyvespolc közül" />
+				<ExpandablePicture src="/img/pannonhalma5.jpg" title="I. Ferenc magyar király szobra" />
+				<ExpandablePicture src="/img/pannonhalma6.jpg" title="Egy a sok teli könyvespolc közül" />
 			</div>
-			<ExpandablePicture src="/img/pannonhalma7.webp" title="A könyvtár" />
+			<ExpandablePicture src="/img/pannonhalma7.jpg" title="A könyvtár" />
 		</article>
 	</ArticleContainer>
 </template>
