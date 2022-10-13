@@ -80,6 +80,10 @@
 		@apply text-base block italic -mt-2;
 	}
 
+	section :global(article) :global(div.pic-group) {
+		@apply my-4 grid gap-4;
+	}
+
 	section :global(article) :global(p) {
 		@apply mt-6;
 	}
