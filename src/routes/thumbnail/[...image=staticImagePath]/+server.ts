@@ -5,7 +5,7 @@ import Cache from "$lib/cache";
 
 export const cache = new Cache<string, Buffer>((buffer) => buffer.byteLength, 1024 * 1024 * 768); // 768mb, vercel has a 1024mb limit
 
-const size = 480; // shorter side in pixels
+const size = 360; // shorter side in pixels
 const format = Jimp.MIME_JPEG;
 
 const cachedImage = (image: Buffer) => new Response(image, {
