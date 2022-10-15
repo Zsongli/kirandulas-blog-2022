@@ -34,7 +34,10 @@
 
 	var container: HTMLDivElement;
 	var containerRange: { start: number; end: number } = { start: 0, end: 0 };
+
 	onMount(() => {
+        shuffle(images);
+        setupScrolling(scrollInterval);
 		new ResizeObserver(
 			(entries) =>
 				(containerRange = {
