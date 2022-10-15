@@ -5,7 +5,7 @@ import Cache from "$lib/cache";
 
 export const cache = new Cache<string, Buffer>((buffer) => buffer.byteLength, 1024 * 1024 * 768); // 768mb, vercel has a 1024mb limit
 
-const size = 720; // longer side in pixels
+const size = 480; // shorter side in pixels
 const format = Jimp.MIME_JPEG;
 
 const cachedImage = (image: Buffer) => new Response(image, {
@@ -34,8 +34,8 @@ export async function GET({ params, url }: RequestEvent): Promise<Response> {
     const h = image.getHeight();
     const w = image.getWidth();
     image.quality(80);
-    if (w > h) image.resize(size, size / w * h, Jimp.RESIZE_BILINEAR);
-    else image.resize(size / h * w, size, Jimp.RESIZE_BILINEAR);
+    if (w > h) image.resize(size * w / h, size, Jimp.RESIZE_BILINEAR);
+    else image.resize(size, size * h / w, Jimp.RESIZE_BILINEAR);
 
     const processedImageBuffer = await image.getBufferAsync(format);
     cache.set(params.image, processedImageBuffer);
