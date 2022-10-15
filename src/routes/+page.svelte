@@ -4,10 +4,10 @@
 	const images = [
 		{ src: "/img/gyor-viewpoint-1.jpg", title: "Püspökvár-Toronykilátó" },
 		{ src: "/img/pannonhalma-b-outside.jpg", title: "Pannonhalmi Főapátság" },
-		{src: "/img/radio-listen.jpg", title: "Tardos, Rádiómúzeum" },
-		{src: "/img/szombat-is-front.jpg", title: "Iseum Savariense" },
-		{src: "/img/tataivar-lakeside.jpg", title: "Tatai vár" },
-		{src: "/img/teheneszet-inside.jpg", title: "Nagyszentjános, Biofarm" },
+		{ src: "/img/radio-listen.jpg", title: "Tardos, Rádiómúzeum" },
+		{ src: "/img/szombat-is-front.jpg", title: "Iseum Savariense" },
+		{ src: "/img/tataivar-lakeside.jpg", title: "Tatai vár" },
+		{ src: "/img/teheneszet-inside.jpg", title: "Nagyszentjános, Biofarm" }
 	];
 </script>
 
@@ -26,11 +26,10 @@
 				Üdvözlünk a kirándulási blogunkon!
 			</h1>
 			<p class="text-base md:text-lg lg:text-xl">
-				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat voluptate eaque tempora
-				ut vero ducimus dolorem debitis temporibus minus voluptatibus pariatur deserunt eum harum,
-				illo sequi aspernatur, quidem, unde voluptatem laboriosam corrupti. Totam, esse
-				voluptatibus? Deleniti dolorem earum, dolorum repudiandae labore ducimus, repellendus minus
-				accusamus est porro, veritatis animi veniam!
+				A Kőbányai Szent László Gimnázium 2022-es F osztálya bemutatja a legújabb tanulmányi
+				kirándulási blogját. Minden tanévben újabb és újabb helyszíneket látogatunk meg, majd
+				leírjuk tapasztalatainkat. Tarts velünk nyugat-magyarországi kalandunkon, és fedezd fel a
+				régió legérdekesebb látnivalóit! Kezdj olvasni, és ne maradj le ennek az évnek a tartalmáról sem!
 			</p>
 			<a
 				href="/nap1"
