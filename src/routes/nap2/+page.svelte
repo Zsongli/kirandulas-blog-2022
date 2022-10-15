@@ -17,24 +17,53 @@
 			dignissimos?
 		</p>
 		<article>
-			<h2>Lorem Ipsum</h2>
-			<span class="subtitle">Dolor sit amet</span>
+			<h2>Esterházy-kastély</h2>
+			<span class="subtitle">Fertőd</span>
+			<p>Epikus nagy fancy ház.</p>
+
+			<div class="pic-group grid-cols-1 md:grid-cols-2">
+				<ExpandablePicture src="/img/fertod-enterance.jpg" title="A díszes kapu" />
+				<ExpandablePicture src="/img/fertod-front.jpg" title="A kastély szemből" />
+				<ExpandablePicture src="/img/fertod-garden.jpg" title="A belső kert" />
+				<ExpandablePicture src="/img/fertod-backyard.jpg" title="A kastély hátsó kertje" />
+			</div>
+		</article>
+		<article>
+			<h2>Kőfejtő</h2>
+			<span class="subtitle">Fetőrákos</span>
+			<p>Átlagos Májkraft játékos.</p>
+
+			<div class="pic-group grid-cols-1 md:grid-cols-2">
+				<ExpandablePicture src="/img/mines-outside.jpg" title="A kőfejtő kívülről" />
+				<ExpandablePicture src="/img/mines-track.jpg" title="A tanösvényen" />
+			</div>
+			<div class="pic-group grid-cols-3">
+				<ExpandablePicture src="/img/mines-shell.jpg" title="Ősi kagylófaj" />
+				<ExpandablePicture src="/img/mines-stairs.jpg" title="Lépcső a barlangon belüli lelátóhoz" />
+				<ExpandablePicture src="/img/mines-inside.jpg" title="A lelátóról" />
+			</div>
+		</article>
+		<article>
+			<h2>Szabad séta + Tűztorony</h2>
+			<span class="subtitle">Sopron</span>
 			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium maxime similique rerum
-				molestiae tempora in aperiam ratione temporibus ab corrupti voluptates nemo modi
-				consequuntur, enim magnam quis eligendi exercitationem. Maiores aut explicabo, animi
-				mollitia adipisci eligendi temporibus voluptatum atque ex fugiat vel nostrum fugit amet
-				earum rerum iste tenetur odio sint architecto, ea error tempore at labore! Tempore
-				asperiores ipsa illo? Nam repellendus, reprehenderit enim iure eum, dolorem aliquid
-				quibusdam impedit vero, explicabo nemo eius ipsam nostrum molestias accusantium voluptatem
-				blanditiis fuga libero excepturi optio! Praesentium soluta nihil, delectus earum ut, sunt
-				labore tempore nostrum odio eaque corporis totam perferendis repudiandae dolorem dicta
-				tempora maxime saepe nam, minus et exercitationem non. Dolores iusto beatae asperiores
-				sapiente quae aspernatur temporibus eos nam dolorum necessitatibus alias nulla magni dolorem
-				eaque cupiditate dicta facere itaque, eligendi accusamus! Facilis, accusamus soluta vitae
-				adipisci repudiandae totam deserunt qui aperiam corporis neque illo minima consequuntur
-				cupiditate ipsum laudantium quas.
+				Mekivel kezdtük, majd a Krajnyák tanárúr által kiküldött helyszíneket látogattuk meg sorban.
+				A helyszíneken csoportképeket kellett készíteni. Ezután felmentünk a Tűztorony kilátójába.
 			</p>
+
+			<div class="pic-group grid-cols-1 md:grid-cols-2">
+				<ExpandablePicture src="/img/sopron-viewpoint.jpg" title="A város a Tűztoronyról" />
+			</div>
+		</article>
+		<article>
+			<h2>Csalogány Tábor</h2>
+			<span class="subtitle">Csapod</span>
+			<p>A táborhely</p>
+
+			<div class="pic-group grid-cols-1 md:grid-cols-2">
+				<ExpandablePicture src="/img/csapod-dining-area.jpg" title="Az kültéri étkező" />
+				<ExpandablePicture src="/img/csapod-house.jpg" title="A 2x5 személyes ház" />
+			</div>
 		</article>
 	</ArticleContainer>
 </template>
