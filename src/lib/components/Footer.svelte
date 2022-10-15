@@ -1,5 +1,5 @@
 <template>
-	<footer class="footer gap-0 items-center p-4 bg-neutral text-neutral-content shrink-0">
+	<footer class="footer gap-0 items-center p-4 bg-base-200 shrink-0">
 		<div
 			class="items-center grid-flow-col gap-5 justify-self-center text-center text-sm md:justify-self-start md:text-left md:text-base"
 		>
