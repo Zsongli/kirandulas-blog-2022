@@ -26,7 +26,7 @@
 				Üdvözlünk a kirándulási blogunkon!
 			</h1>
 			<p class="text-base md:text-lg lg:text-xl">
-				A Kőbányai Szent László Gimnázium 2022-es F osztálya bemutatja a legújabb tanulmányi
+				A Kőbányai Szent László Gimnázium 2020-as F osztálya bemutatja a legújabb tanulmányi
 				kirándulási blogját. Minden tanévben újabb és újabb helyszíneket látogatunk meg, majd
 				leírjuk tapasztalatainkat. Tarts velünk nyugat-magyarországi kalandunkon, és fedezd fel a
 				régió legérdekesebb látnivalóit! Kezdj olvasni, és ne maradj le ennek az évnek a tartalmáról sem!
