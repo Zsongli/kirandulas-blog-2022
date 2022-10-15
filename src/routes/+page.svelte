@@ -2,12 +2,12 @@
 	import ImageCarousel from "$lib/components/ImageCarousel.svelte";
 
 	const images = [
-		{ src: "/img/gyor-viewpoint-1.jpg", title: "Püspökvár-Toronykilátó" },
-		{ src: "/img/pannonhalma-b-outside.jpg", title: "Pannonhalmi Főapátság" },
-		{ src: "/img/radio-listen.jpg", title: "Tardos, Rádiómúzeum" },
-		{ src: "/img/szombat-is-front.jpg", title: "Iseum Savariense" },
-		{ src: "/img/tataivar-lakeside.jpg", title: "Tatai vár" },
-		{ src: "/img/teheneszet-inside.jpg", title: "Nagyszentjános, Biofarm" }
+		{ src: "/img/homepage/gyor-viewpoint-1.jpg", title: "Püspökvár-Toronykilátó" },
+		{ src: "/img/homepage/pannonhalma-b-outside.jpg", title: "Pannonhalmi Főapátság" },
+		{ src: "/img/homepage/radio-listen.jpg", title: "Tardos, Rádiómúzeum" },
+		{ src: "/img/homepage/szombat-is-front.jpg", title: "Iseum Savariense" },
+		{ src: "/img/homepage/tataivar-lakeside.jpg", title: "Tatai vár" },
+		{ src: "/img/homepage/teheneszet-inside.jpg", title: "Nagyszentjános, Biofarm" }
 	];
 </script>
 
