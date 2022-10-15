@@ -14,14 +14,15 @@
 		| "left top"
 		| "right bottom"
 		| "right top" = "center";
-	export var scrollInterval = 5000;
+	export var scrollInterval = 3000;
 
 	var selected = 0;
 
-	function shuffle<T>(array: T[]): T[] {
-		return array.sort(() => Math.random() - 0.5);
+	function shuffle(array: any[]) {
+		array.sort(() => 0.5 - Math.random());
+		images = images;
 	}
-	$: shuffledImages = shuffle(images);
+	$: shuffle(images);
 
 	function setupScrolling(scrollInterval: number) {
 		clearInterval(intervalId);
@@ -35,9 +36,10 @@
 	var container: HTMLDivElement;
 	var containerRange: { start: number; end: number } = { start: 0, end: 0 };
 
+	var init = false;
 	onMount(() => {
-        shuffle(images);
-        setupScrolling(scrollInterval);
+		shuffle(images);
+		setupScrolling(scrollInterval);
 		new ResizeObserver(
 			(entries) =>
 				(containerRange = {
@@ -45,27 +47,30 @@
 					end: entries[0].contentRect.right
 				})
 		).observe(container);
+		init = true;
 	});
 </script>
 
 <template>
 	<div {...$$restProps} bind:this={container}>
-		{#each [shuffledImages[selected]] as { src, title, alt } (selected)}
-			<img
-				{src}
-				{title}
-				alt={alt ?? title}
-				class="block object- absolute top-0 left-0 w-full h-full"
-				style="object-fit: {imageFit}; object-position: {imagePosition};"
-				in:fly|local={{ x: containerRange.end, duration: 1000, opacity: 1 }}
-				out:fly|local={{ x: containerRange.start, duration: 1000, opacity: 1 }}
-			/>
-			<div
-				transition:fade|local={{ duration: 500 }}
-				class="badge badge-md lg:badge-lg bg-opacity-50 absolute bottom-3 right-3"
-			>
-				{title}
-			</div>
-		{/each}
+		{#if init}
+			{#each [images[selected]] as { src, title, alt } (selected)}
+				<img
+					{src}
+					{title}
+					alt={alt ?? title}
+					class="block object- absolute top-0 left-0 w-full h-full"
+					style="object-fit: {imageFit}; object-position: {imagePosition};"
+					in:fly|local={{ x: containerRange.end, duration: 1000, opacity: 1 }}
+					out:fly|local={{ x: containerRange.start, duration: 1000, opacity: 1 }}
+				/>
+				<div
+					transition:fade|local={{ duration: 500 }}
+					class="badge badge-md lg:badge-lg bg-opacity-50 absolute bottom-3 right-3"
+				>
+					{title}
+				</div>
+			{/each}
+		{/if}
 	</div>
 </template>
