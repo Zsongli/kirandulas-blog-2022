@@ -10,10 +10,10 @@
 <template>
 	<ArticleContainer title="Az első nap" date="2022. 09. 07" nextHref="/nap2">
 		<p slot="description">
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consequuntur amet ducimus nam
-			nostrum eveniet alias neque, eum cupiditate fugiat minus doloribus fuga cumque ipsam facere
-			eligendi deserunt veniam iste reprehenderit laudantium magni? Quia deserunt cumque fugit vitae
-			ipsam eum ducimus tempore sapiente et, soluta ullam ipsa, consectetur veritatis!
+			A kirándulás első napján Kőbányáról először Tardosra indultunk, majd emellett olyan helyeket
+			fedeztünk fel, mint a Tatai vár, az Öreg-tó, egy Tehenészet Nagyszentjánoson, valamint a
+			Pannonhalmi Főapátság. A busz ugyan csak pár perc késéssel tudott csak indulni, de ez nem
+			jelentett problémát. Minden állomáson el tudtuk tölteni a maximális időt.
 		</p>
 
 		<article>
