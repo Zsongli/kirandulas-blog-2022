@@ -103,8 +103,8 @@
 			</p>
 
 			<div class="pic-group grid-cols-1 md:grid-cols-2">
-				<ExpandablePicture src="/img/gyor-viewpoint-1.jpg" title="A város a kilátóból" />
-				<ExpandablePicture src="/img/gyor-viewpoint-2.jpg" title="A város a kilátóból pt. 2" />
+				<ExpandablePicture src="/img/gyor-viewpoint-1.jpg" title="A város a kilátóról" />
+				<ExpandablePicture src="/img/gyor-viewpoint-2.jpg" title="A város a kilátóról pt. 2" />
 				<ExpandablePicture src="/img/gyor-box.jpg" title="Loot box" />
 				<ExpandablePicture src="/img/gyor-laci.jpg" title="Laci aranyszobor" />
 			</div>
