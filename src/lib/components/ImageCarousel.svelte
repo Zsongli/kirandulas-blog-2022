@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from "svelte";
 	import { fade, fly } from "svelte/transition";
+
 	export var images: { src: string; title: string; alt?: string }[];
 	export var imageFit: "cover" | "contain" | "fill" | "none" | "scale-down" = "cover";
 	export var imagePosition:
@@ -14,6 +15,8 @@
 		| "right bottom"
 		| "right top" = "center";
 	export var scrollInterval = 5000;
+
+	var selected = 0;
 
 	function shuffle<T>(array: T[]): T[] {
 		return array.sort(() => Math.random() - 0.5);
@@ -29,10 +32,8 @@
 	var intervalId: NodeJS.Timer;
 	$: setupScrolling(scrollInterval);
 
-	var selected = 0;
 	var container: HTMLDivElement;
-	var containerRange: { start: number; end: number };
-
+	var containerRange: { start: number; end: number } = { start: 0, end: 0 };
 	onMount(() => {
 		new ResizeObserver(
 			(entries) =>
@@ -53,11 +54,11 @@
 				alt={alt ?? title}
 				class="block object- absolute top-0 left-0 w-full h-full"
 				style="object-fit: {imageFit}; object-position: {imagePosition};"
-				in:fly={{ x: containerRange.end, duration: 1000, opacity: 1 }}
-				out:fly={{ x: containerRange.start, duration: 1000, opacity: 1 }}
+				in:fly|local={{ x: containerRange.end, duration: 1000, opacity: 1 }}
+				out:fly|local={{ x: containerRange.start, duration: 1000, opacity: 1 }}
 			/>
 			<div
-				transition:fade={{ duration: 500 }}
+				transition:fade|local={{ duration: 500 }}
 				class="badge badge-md lg:badge-lg bg-opacity-50 absolute bottom-3 right-3"
 			>
 				{title}
