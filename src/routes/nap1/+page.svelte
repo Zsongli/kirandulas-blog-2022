@@ -34,8 +34,8 @@
 				hangzását az abban a korban jellemző zeneélménnyel kombinálva. (Elég hangulatos volt)
 			</p>
 			<div class="pic-group grid-cols-1 md:grid-cols-2">
-				<ExpandablePicture src="/img/radio-wall.jpg" title="Rádiók" />
-				<ExpandablePicture src="/img/radio-listen.jpg" title="Egy kis zenehallgatás" />
+				<ExpandablePicture src="/img/radio/wall.jpg" title="Rádiók" />
+				<ExpandablePicture src="/img/radio/listen.jpg" title="Egy kis zenehallgatás" />
 			</div>
 		</article>
 
@@ -53,22 +53,22 @@
 			<p>A tálatvezetés után meglátogattuk az Öreg-tavat is.</p>
 			<div class="pic-group grid-cols-1 md:grid-cols-2">
 				<ExpandablePicture
-					src="/img/tataivar-lakeside.jpg"
+					src="/img/tataivar/lakeside.jpg"
 					title="Tatai vár az Öreg-tó felől"
 					source="https://commons.wikimedia.org/wiki/File:Tatai_vár-_az_Öreg_tó_felől.JPG"
 				/>
-				<ExpandablePicture src="/img/tataivar-bridge.jpg" title="Séta a hídon" />
-				<ExpandablePicture src="/img/tataivar-front.jpg" title="Séta a vár felé" />
-				<ExpandablePicture src="/img/tataivar-makett.jpg" title="Makett a várról" />
-				<ExpandablePicture src="/img/tataivar-ruins.jpg" title="Romok" />
-				<ExpandablePicture src="/img/tataivar-moat-cafe.jpg" title="A várárokban étkezde üzemel" />
+				<ExpandablePicture src="/img/tataivar/bridge.jpg" title="Séta a hídon" />
+				<ExpandablePicture src="/img/tataivar/front.jpg" title="Séta a vár felé" />
+				<ExpandablePicture src="/img/tataivar/makett.jpg" title="Makett a várról" />
+				<ExpandablePicture src="/img/tataivar/ruins.jpg" title="Romok" />
+				<ExpandablePicture src="/img/tataivar/moat-cafe.jpg" title="A várárokban étkezde üzemel" />
 			</div>
 
 			<div class="pic-group grid-cols-3">
-				<ExpandablePicture src="/img/tataivar-gravestone.jpg" title="Sírkő" />
-				<ExpandablePicture src="/img/tataivar-matyi.jpg" title="Mátyás-szobor" />
+				<ExpandablePicture src="/img/tataivar/gravestone.jpg" title="Sírkő" />
+				<ExpandablePicture src="/img/tataivar/matyi.jpg" title="Mátyás-szobor" />
 				<ExpandablePicture
-					src="/img/tataivar-nesting.jpg"
+					src="/img/tataivar/nesting.jpg"
 					title="Szobrot fotozó fotóst fotozó fotóst fotózó fotósról fotó"
 				/>
 			</div>
@@ -87,8 +87,8 @@
 			</p>
 
 			<div class="pic-group grid-cols-1 md:grid-cols-2">
-				<ExpandablePicture src="/img/teheneszet-inside.jpg" title="new List<Tehén>()" />
-				<ExpandablePicture src="/img/teheneszet-ad.jpg" title="A hely üzemeltetői" />
+				<ExpandablePicture src="/img/teheneszet/inside.jpg" title="new List<Tehén>()" />
+				<ExpandablePicture src="/img/teheneszet/ad.jpg" title="A hely üzemeltetői" />
 			</div>
 		</article>
 		<article>
@@ -113,26 +113,26 @@
 				szőlőt és gyógynövényeket termesztenek.
 			</p>
 			<div class="pic-group grid-cols-3">
-				<ExpandablePicture src="/img/pannonhalma-b-outside.jpg" title="A bazilika kívülről" />
-				<ExpandablePicture src="/img/pannonhalma-b-inside.jpg" title="A bazilika belülről" />
-				<ExpandablePicture src="/img/pannonhalma-b-lower.jpg" title="Az altemplom" />
+				<ExpandablePicture src="/img/pannonhalma/b-outside.jpg" title="A bazilika kívülről" />
+				<ExpandablePicture src="/img/pannonhalma/b-inside.jpg" title="A bazilika belülről" />
+				<ExpandablePicture src="/img/pannonhalma/b-lower.jpg" title="Az altemplom" />
 			</div>
 			<div class="pic-group grid-cols-1 md:grid-cols-2">
-				<ExpandablePicture src="/img/pannonhalma-fancy-door.jpg" title="A Porta Speciosa" />
-				<ExpandablePicture src="/img/pannonhalma-lib-whole.jpg" title="A könyvtár" />
+				<ExpandablePicture src="/img/pannonhalma/fancy-door.jpg" title="A Porta Speciosa" />
+				<ExpandablePicture src="/img/pannonhalma/lib-whole.jpg" title="A könyvtár" />
 			</div>
 
 			<div class="pic-group grid-cols-3">
 				<ExpandablePicture
-					src="/img/pannonhalma-lib-feri.jpg"
+					src="/img/pannonhalma/lib-feri.jpg"
 					title="I. Ferenc magyar király szobra"
 				/>
 				<ExpandablePicture
-					src="/img/pannonhalma-lib-shelf.jpg"
+					src="/img/pannonhalma/lib-shelf.jpg"
 					title="Egy a sok teli könyvespolc közül"
 				/>
 				<ExpandablePicture
-					src="/img/pannonhalma-lib-ceiling.jpg"
+					src="/img/pannonhalma/lib-ceiling.jpg"
 					title="A plafonon található freskó"
 				/>
 			</div>

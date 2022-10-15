@@ -52,14 +52,14 @@
 				helyesen megválaszolni. Nekünk sikerült is 1 hibával, amivel elsők lettünk.
 			</p>
 			<div class="pic-group grid-cols-1 md:grid-cols-2">
-				<ExpandablePicture src="/img/jurisics-outer.jpg" title="A vár kívülről" />
-				<ExpandablePicture src="/img/jurisics-garden.jpg" title="A belső kert ketreccel" />
+				<ExpandablePicture src="/img/jurisics/outer.jpg" title="A vár kívülről" />
+				<ExpandablePicture src="/img/jurisics/garden.jpg" title="A belső kert ketreccel" />
 			</div>
 			<div class="pic-group grid-cols-2 md:grid-cols-4">
-				<ExpandablePicture src="/img/jurisics-miklos.jpg" title="Jurisics Miklós szobra" />
-				<ExpandablePicture src="/img/jurisics-bell.jpg" title="Ébresztő mindenkinek" />
-				<ExpandablePicture src="/img/jurisics-1v1.jpg" title="Intenzív leszámolás" />
-				<ExpandablePicture src="/img/jurisics-shoe.jpg" title="Győzedelmi cipő felhúzva" />
+				<ExpandablePicture src="/img/jurisics/miklos.jpg" title="Jurisics Miklós szobra" />
+				<ExpandablePicture src="/img/jurisics/bell.jpg" title="Ébresztő mindenkinek" />
+				<ExpandablePicture src="/img/jurisics/1v1.jpg" title="Intenzív leszámolás" />
+				<ExpandablePicture src="/img/jurisics/shoe.jpg" title="Győzedelmi cipő felhúzva" />
 			</div>
 		</article>
 		<article>
@@ -79,15 +79,15 @@
 				még maradt egy kis időnk körbenézni a környéken.
 			</p>
 			<div class="pic-group grid-cols-2 md:grid-cols-4">
-				<ExpandablePicture src="/img/szombat-is-front.jpg" title="Az Iseum" />
-				<ExpandablePicture src="/img/szombat-is-isis.jpg" title="Ízisz istennő szobra" />
-				<ExpandablePicture src="/img/szombat-is-explain.jpg" title="A tárlatvezető magyaráz" />
-				<ExpandablePicture src="/img/szombat-eat.jpg" title="Éhes gyermek pizzát eszik" />
+				<ExpandablePicture src="/img/szombat/iseum/front.jpg" title="Az Iseum" />
+				<ExpandablePicture src="/img/szombat/iseum/isis.jpg" title="Ízisz istennő szobra" />
+				<ExpandablePicture src="/img/szombat/iseum/explain.jpg" title="A tárlatvezető magyaráz" />
+				<ExpandablePicture src="/img/szombat/eat.jpg" title="Éhes gyermek pizzát eszik" />
 			</div>
 			<div class="pic-group grid-cols-1 md:grid-cols-2">
-				<ExpandablePicture src="/img/szombat-is-dry.jpg" title="💀💀" on:click={funny} />
+				<ExpandablePicture src="/img/szombat/iseum/dry.jpg" title="💀💀" on:click={funny} />
 				<ExpandablePicture
-					src="/img/szombat-is-pieces.jpg"
+					src="/img/szombat/iseum/pieces.jpg"
 					title="Márványdarabok a lerombolt szentélyből"
 				/>
 			</div>
@@ -98,15 +98,15 @@
 			<h2>Püspökvár-toronykilátó</h2>
 			<span class="subtitle">Győr</span>
 			<p>
-				Püspükvár kilátó. Szent László szobrocska? A kilátóból el lehetett látni egészen a
+				Püspükvár kilátó. Szent László szobrocska? A kilátóról el lehetett látni egészen a
 				Pannonhalmi Apátságig.
 			</p>
 
 			<div class="pic-group grid-cols-1 md:grid-cols-2">
-				<ExpandablePicture src="/img/gyor-viewpoint-1.jpg" title="A város a kilátóról" />
-				<ExpandablePicture src="/img/gyor-viewpoint-2.jpg" title="A város a kilátóról pt. 2" />
-				<ExpandablePicture src="/img/gyor-box.jpg" title="Loot box" />
-				<ExpandablePicture src="/img/gyor-laci.jpg" title="Laci aranyszobor" />
+				<ExpandablePicture src="/img/gyor/viewpoint-1.jpg" title="A város a kilátóról #1" />
+				<ExpandablePicture src="/img/gyor/viewpoint-2.jpg" title="A város a kilátóról #2" />
+				<ExpandablePicture src="/img/gyor/box.jpg" title="Loot box" />
+				<ExpandablePicture src="/img/gyor/laci.jpg" title="Laci aranyszobor" />
 			</div>
 			<p>
 				A végén még maradt egy kis időnk szabad sétára, evésre. Amikor indultunk volna Szomathelyről
