@@ -98,7 +98,7 @@
 			<h2>Püspökvár-Toronykilátó</h2>
 			<span class="subtitle">Győr</span>
 			<p>
-				Püspükvár kilátó. Szent László szobrocska? A kilátóról el lehetett látni egészen a
+				Püspökvár kilátó. Szent László szobrocska? A kilátóról el lehetett látni egészen a
 				Pannonhalmi Apátságig.
 			</p>
 

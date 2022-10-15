@@ -45,12 +45,12 @@
 			<p>
 				Következő megállónk Tata volt, itt meglátogattuk a Tatai várat. A vár körül egy várárok
 				található, ami a vár mögötti Öreg-tóval kapcsolódik össze. A víz magassága nem volt túl
-				nagy, láthattuk egy kisebb éttermet a várárok száraz részén. A várkaput egy kőhídon
+				nagy, láthattunk egy kisebb éttermet a várárok száraz részén. A várkaput egy kőhídon
 				átsétálva közelíthettük meg. A falakon belülre lépve észrevehettünk a várból megmaradt
 				egyetlen szárnyat. Itt találhatóak az először 1974-ben megnyílt Kuny Domokos Múzeum
 				kiállításai is, valójában ide jöttünk, a tárlatvezetésre.
 			</p>
-			<p>A tálatvezetés után meglátogattuk az Öreg-tavat is.</p>
+			<p>A tárlatvezetés után meglátogattuk az Öreg-tavat is.</p>
 			<div class="pic-group grid-cols-1 md:grid-cols-2">
 				<ExpandablePicture
 					src="/img/tataivar/lakeside.jpg"
@@ -77,7 +77,7 @@
 			<h2>Biofarm / Tehenészet</h2>
 			<span class="subtitle">Nagyszentjános</span>
 			<p>
-				Következő állomásunk a nagyszentjánosi Kisalföldi zrt. tehenészete volt. Itt kb. 1100 tejelő
+				Következő állomásunk a nagyszentjánosi Kisalföldi Zrt. tehenészete volt. Itt kb. 1100 tejelő
 				tehén volt található, akinek élete szinte teljesen automatizálva lett gépek által. Amikor
 				megérkeztünk hirtelen mindenkit megcsapott az erős silószag. Bevallom, rosszabbra
 				számítottam, de viszonylag tiszta volt az összes járda. A tehenek több nagy felülről fedett
@@ -98,9 +98,9 @@
 				A Pannonhalmi Főapátság volt következő megállónk. A monostor egy domb tetején állt, ahonnal
 				el lehetett látni egészen Győrig. A monostor több nagy épületből álló épületkomplexum,
 				többek között található volt itt bencés iskola és egy bazilika is. Az utóbbi, a Szent
-				Márton-bazilika volt a fő látványosság, amely 55 méteres magasságával tornyosült felénk.
+				Márton-bazilika volt a fő látványosság, amely 55 méteres magasságával tornyosult felénk.
 				Fontos jelképe az fehér ónixkő, amely megtalálható volt a rózsaablakban is. Lenézünk az
-				al-templomba is, itt volt elhelyezve Habsburg Ottó szívurnája is. Ezután a templom oldalsó
+				altemplomba is, itt volt elhelyezve Habsburg Ottó szívurnája is. Ezután a templom oldalsó
 				bejáratán kilépve betekinthettünk a kerengőbe, az udvart körülölelő folyosóba. Itt tudtak
 				gyorsan közlekedni a szerzetesek a fontosabb helyek között. Hátrafordulva megtekinthettük a
 				Porta Speciosa-t, a kaput amin éppen kiléptünk. Ezután átmentünk a könyvtárba, ahol több,
@@ -109,7 +109,7 @@
 				láthattunk.
 			</p>
 			<p>
-				Az apátság tulajdonában áll többhektárnyi termőföld is, amin még máig is gazdálkodnak,
+				Az apátság tulajdonában áll több hektárnyi termőföld is, amin még máig is gazdálkodnak,
 				szőlőt és gyógynövényeket termesztenek.
 			</p>
 			<div class="pic-group grid-cols-3">
