@@ -22,11 +22,11 @@
 <template>
 	<ArticleContainer title="A harmadik nap" date="2022. 09. 09" prevHref="/nap2">
 		<p slot="description">
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, a atque quis sint fugiat
-			inventore numquam. Quas vero architecto, aliquid sint similique quibusdam provident vitae
-			dolorum laboriosam officia, dignissimos ducimus, labore sapiente at! Eveniet, unde ea corporis
-			atque beatae maiores dolore aliquid totam aperiam aliquam voluptates iste! Inventore, facilis
-			harum.
+			Az utolsó nap a Jurisics-vár és Szombathely központjának körbejárásáról szólt. Szombathely
+			meglátogatása után már lényegében indultunk vissza Kőbányára, csak közben még beugrottunk
+			Győrbe, ahol megtekintettük iskolánk védőszentje, I. László hermáját, valamint körbesasoltuk a
+			várost a Püspökvár-Toronykilátóról. Ezután következett az élménydús buszút az iskola felé,
+			legalábbis azoknak, akik nem csak zenét hallgatva aludták végig.
 		</p>
 		<article>
 			<h2>Jurisics-vár</h2>
@@ -95,7 +95,7 @@
 			<audio src="/audio/dry2.wav" bind:this={audio2} on:ended={() => (playing = false)} />
 		</article>
 		<article>
-			<h2>Püspökvár-toronykilátó</h2>
+			<h2>Püspökvár-Toronykilátó</h2>
 			<span class="subtitle">Győr</span>
 			<p>
 				Püspükvár kilátó. Szent László szobrocska? A kilátóról el lehetett látni egészen a
@@ -119,9 +119,7 @@
 		<article>
 			<h2>Végszó</h2>
 			<span class="subtitle">Budapest</span>
-			<p>
-				Összességében elég jó volt a kirándulás, minden hely tartogatott valami emlékezeteset.
-			</p>
+			<p>Összességében elég jó volt a kirándulás, minden hely tartogatott valami emlékezeteset.</p>
 		</article>
 	</ArticleContainer>
 </template>
