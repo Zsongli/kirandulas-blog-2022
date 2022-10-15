@@ -80,7 +80,7 @@
 			</p>
 			<div class="pic-group grid-cols-2 md:grid-cols-4">
 				<ExpandablePicture src="/img/szombat-is-front.jpg" title="Az Iseum" />
-				<ExpandablePicture src="/img/szombat-is-isis.jpg" title="Ízisz isteennő szobra" />
+				<ExpandablePicture src="/img/szombat-is-isis.jpg" title="Ízisz istennő szobra" />
 				<ExpandablePicture src="/img/szombat-is-explain.jpg" title="A tárlatvezető magyaráz" />
 				<ExpandablePicture src="/img/szombat-eat.jpg" title="Éhes gyermek pizzát eszik" />
 			</div>
