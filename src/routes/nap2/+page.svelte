@@ -45,20 +45,22 @@
 				egykor mészkövet termeltek ki. A kitermelt anyagból számos épület épült Bécsben és
 				Sopronban. Ma már nem használják eredeti céljára, hanem az UNESCO világörökség része lett. A
 				fölénk tornyosuló hatalmas mennyiségű kő omlásveszélyes is lehetne, ezért egy biztonsági
-				háló volt a teljes "mennyezetre" feltéve. Ahogyan mentük tovább a lépcsőn, láthattunk
-				vetítéseket ősi tengeri élőlényekről is. Elérve a lépcső alját (mostmár tényleg hideg volt),
-				mégtöbb tengeri állatokról tanító kiállításokat láthattunk. Továbbsétálva benézhettünk a
-				Barlangszínházba, bár sajnos nem mehettünk be. Azt állítják, hogy nagyon jó a barlang
-				akusztikája, sokan szeretnének itt előadni. Kicsit arrébb megnézhettünk egy interaktív
-				kisfilmet, ami a hely és a környék történelméről szólt. Volt még egy magas, még a kőfejtőn
-				belüli lelátó, ahova egy méretes lépcső vezetett fel. Mikor ideje volt menni, volt egy másik
-				lépcső, ami egyből kivezetett lentről, nem kellett visszamenni az idefele bejárt úton.
+				háló volt a teljes "mennyezetre" feltéve.
 			</p>
-
 			<div class="pic-group grid-cols-1 md:grid-cols-2">
 				<ExpandablePicture src="/img/quarry/outside.jpg" title="A kőfejtő kívülről" />
 				<ExpandablePicture src="/img/quarry/track.jpg" title="A tanösvényen" />
 			</div>
+			<p>
+				Ahogyan mentük tovább a lépcsőn, láthattunk vetítéseket ősi tengeri élőlényekről is. Elérve
+				a lépcső alját (mostmár tényleg hideg volt), mégtöbb tengeri állatokról tanító kiállításokat
+				láthattunk. Továbbsétálva benézhettünk a Barlangszínházba, bár sajnos nem mehettünk be. Azt
+				állítják, hogy nagyon jó a barlang akusztikája, sokan szeretnének itt előadni. Kicsit arrébb
+				megnézhettünk egy interaktív kisfilmet, ami a hely és a környék történelméről szólt. Volt
+				még egy magas, még a kőfejtőn belüli lelátó, ahova egy méretes lépcső vezetett fel. Mikor
+				ideje volt menni, volt egy másik lépcső, ami egyből kivezetett lentről, nem kellett
+				visszamenni az idefele bejárt úton.
+			</p>
 			<div class="pic-group grid-cols-3">
 				<ExpandablePicture src="/img/quarry/shell.jpg" title="Ősi kagylófaj" />
 				<ExpandablePicture
