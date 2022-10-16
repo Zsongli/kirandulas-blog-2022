@@ -100,28 +100,27 @@
 				többek között található volt itt bencés iskola és egy bazilika is. Az utóbbi, a Szent
 				Márton-bazilika volt a fő látványosság, amely 55 méteres magasságával tornyosult felénk.
 				Fontos jelképe az fehér ónixkő, amely megtalálható volt a rózsaablakban is. Lenézünk az
-				altemplomba is, itt volt elhelyezve Habsburg Ottó szívurnája is. Ezután a templom oldalsó
-				bejáratán kilépve betekinthettünk a kerengőbe, az udvart körülölelő folyosóba. Itt tudtak
-				gyorsan közlekedni a szerzetesek a fontosabb helyek között. Hátrafordulva megtekinthettük a
-				Porta Speciosa-t, a kaput amin éppen kiléptünk. Ezután átmentünk a könyvtárba, ahol több,
-				mint 400 ezer kötet volt található (Persze nem volt mind kirakva). Több szobron, a
-				domborműveken és a freskókon kívül a hatalmas teremben középen egy nagy földgömböt is
-				láthattunk.
-			</p>
-			<p>
-				Az apátság tulajdonában áll több hektárnyi termőföld is, amin még máig is gazdálkodnak,
-				szőlőt és gyógynövényeket termesztenek.
+				altemplomba is, itt volt elhelyezve Habsburg Ottó szívurnája is.
 			</p>
 			<div class="pic-group grid-cols-3">
 				<ExpandablePicture src="/img/pannonhalma/b-outside.jpg" title="A bazilika kívülről" />
 				<ExpandablePicture src="/img/pannonhalma/b-inside.jpg" title="A bazilika belülről" />
 				<ExpandablePicture src="/img/pannonhalma/b-lower.jpg" title="Az altemplom" />
 			</div>
+			<p>
+				Ezután a templom oldalsó bejáratán kilépve betekinthettünk a kerengőbe, az udvart körülölelő
+				folyosóba. Itt tudtak gyorsan közlekedni a szerzetesek a fontosabb helyek között.
+				Hátrafordulva megtekinthettük a Porta Speciosa-t, a kaput amin éppen kiléptünk.
+			</p>
+			<p>
+				Ezután átmentünk a könyvtárba, ahol több, mint 400 ezer kötet volt található (Persze nem
+				volt mind kirakva). Több szobron, a domborműveken és a freskókon kívül a hatalmas teremben
+				középen egy nagy földgömböt is láthattunk.
+			</p>
 			<div class="pic-group grid-cols-1 md:grid-cols-2">
 				<ExpandablePicture src="/img/pannonhalma/fancy-door.jpg" title="A Porta Speciosa" />
 				<ExpandablePicture src="/img/pannonhalma/lib-whole.jpg" title="A könyvtár" />
 			</div>
-
 			<div class="pic-group grid-cols-3">
 				<ExpandablePicture
 					src="/img/pannonhalma/lib-feri.jpg"
@@ -136,6 +135,10 @@
 					title="A plafonon található freskó"
 				/>
 			</div>
+			<p>
+				Az apátság tulajdonában áll több hektárnyi termőföld is, amin még máig is gazdálkodnak,
+				szőlőt és gyógynövényeket termesztenek.
+			</p>
 		</article>
 	</ArticleContainer>
 </template>
