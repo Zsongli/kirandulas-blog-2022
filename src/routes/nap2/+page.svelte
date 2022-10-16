@@ -17,8 +17,8 @@
 				rel="external"
 				target="_blank"
 				href="https://www.youtube.com/watch?v=v8sR7yy7w9c">André Traveler</a
-			>ről, attól függően, hogy éppen kit kérdezünk. Voltunk emellett még Fertőrákoson egy kőfejtőben, valamint
-			körbejártuk Sopron városát is.
+			>ről, attól függően, hogy éppen kit kérdezünk. Voltunk emellett még Fertőrákoson egy
+			kőfejtőben, valamint körbejártuk Sopron városát is.
 		</p>
 		<article>
 			<h2>Esterházy-kastély</h2>
@@ -35,7 +35,27 @@
 		<article>
 			<h2>Kőfejtő</h2>
 			<span class="subtitle">Fetőrákos</span>
-			<p>Átlagos Májkraft játékos.</p>
+			<p>
+				A következő helyszín a Fertőrákosi Kőfejtő és Barlangszínház volt. A bejáratnál kaptunk egy
+				térképet, majd elengedtek minket felfedezni a helyet. Először a kőfejtőre ránéző kinti
+				tanosvényt követtük, majd a kőfejtő feletti "kilátóból" távcsővel körbenézhettünk. Ezután
+				lementünk egy lépcsőn magába a kőfejtő belsejébe. Egyből lehetett érezni a
+				hőmérséklet-különbséget. Szerencsére volt nálunk extra ruha amit felvehettünk. Az egyre
+				mélyebbre vezető lépcsőről körbenézve megcsodálhattuk a hatalmas belmagasságú teret, ahonnan
+				egykor mészkövet termeltek ki. A kitermelt anyagból számos épület épült Bécsben és
+				Sopronban. Ma már nem használják eredeti céljára, az UNESCO világörökség része lett. A
+				fölénk tornyosuló hatalmas mennyiségű kő omlásveszélyes is lehetne, ezért egy biztonsági
+				háló volt a teljes "mennyezetre" feltéve. Ahogyan mentük tovább a lépcsőn láthattunk
+				vetítéseket ősi tengeri élőlényekről is. Elérve a lépcső alját, (mostmár tényleg hideg
+				volt), mégtöbb tengeri állatokról tanító kiállításokat láthattunk. Továbbsétálva
+				benézhettünk a Barlangszínházba, ahova sajnos nem mehettünk be. Azt állítják, hogy nagyon jó
+				a barlang akkusztikája, sokan szeretnének itt előadni. Kicsit arrébb megnézhettünk egy
+				interaktív kisfilmet, ami a hely és a környék történelméről szólt. Volt még egy magas, még a
+				kőfejtőn belüli lelátó, ahova egy méretes lépcső vezetett fel. Mikor ideje volt menni, volt
+				egy másik lépcső, ami egyből kivezetett lentről, nem kellett visszamenni az idefele bejárt
+				úton. A buszhoz visszaérve megtudtuk, hogy az eddig betervezett Páneurópai Piknik
+				emlékhelyet nem fogjuk meglátogatni. (Amúgy is láthattuk az interaktív kisfilmben.)
+			</p>
 
 			<div class="pic-group grid-cols-1 md:grid-cols-2">
 				<ExpandablePicture src="/img/quarry/outside.jpg" title="A kőfejtő kívülről" />
@@ -45,7 +65,7 @@
 				<ExpandablePicture src="/img/quarry/shell.jpg" title="Ősi kagylófaj" />
 				<ExpandablePicture
 					src="/img/quarry/stairs.jpg"
-					title="Lépcső a barlangon belüli lelátóhoz"
+					title="Lépcső a kőfejtőn belüli lelátóhoz"
 				/>
 				<ExpandablePicture src="/img/quarry/inside.jpg" title="A lelátóról" />
 			</div>
