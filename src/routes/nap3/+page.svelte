@@ -26,7 +26,7 @@
 			meglátogatása után már lényegében indultunk vissza Kőbányára, csak közben még beugrottunk
 			Győrbe, ahol megtekintettük iskolánk védőszentje, I. László hermáját, valamint körbesasoltuk a
 			várost a Püspökvár-Toronykilátóról. Ezután következett az élménydús buszút az iskola felé,
-			legalábbis azoknak, akik nem csak zenét hallgatva aludták végig.
+			legalábbis azoknak, akik nem csak zenét hallgatva aludták azt végig.
 		</p>
 		<article>
 			<h2>Jurisics-vár</h2>
