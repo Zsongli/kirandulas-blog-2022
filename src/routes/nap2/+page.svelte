@@ -46,14 +46,13 @@
 				Sopronban. Ma már nem használják eredeti céljára, hanem az UNESCO világörökség része lett. A
 				fölénk tornyosuló hatalmas mennyiségű kő omlásveszélyes is lehetne, ezért egy biztonsági
 				háló volt a teljes "mennyezetre" feltéve. Ahogyan mentük tovább a lépcsőn, láthattunk
-				vetítéseket ősi tengeri élőlényekről is. Elérve a lépcső alját (mostmár tényleg hideg
-				volt), mégtöbb tengeri állatokról tanító kiállításokat láthattunk. Továbbsétálva
-				benézhettünk a Barlangszínházba, bár sajnos nem mehettünk be. Azt állítják, hogy nagyon jó
-				a barlang akusztikája, sokan szeretnének itt előadni. Kicsit arrébb megnézhettünk egy
-				interaktív kisfilmet, ami a hely és a környék történelméről szólt. Volt még egy magas, még a
-				kőfejtőn belüli lelátó, ahova egy méretes lépcső vezetett fel. Mikor ideje volt menni, volt
-				egy másik lépcső, ami egyből kivezetett lentről, nem kellett visszamenni az idefele bejárt
-				úton.
+				vetítéseket ősi tengeri élőlényekről is. Elérve a lépcső alját (mostmár tényleg hideg volt),
+				mégtöbb tengeri állatokról tanító kiállításokat láthattunk. Továbbsétálva benézhettünk a
+				Barlangszínházba, bár sajnos nem mehettünk be. Azt állítják, hogy nagyon jó a barlang
+				akusztikája, sokan szeretnének itt előadni. Kicsit arrébb megnézhettünk egy interaktív
+				kisfilmet, ami a hely és a környék történelméről szólt. Volt még egy magas, még a kőfejtőn
+				belüli lelátó, ahova egy méretes lépcső vezetett fel. Mikor ideje volt menni, volt egy másik
+				lépcső, ami egyből kivezetett lentről, nem kellett visszamenni az idefele bejárt úton.
 			</p>
 
 			<div class="pic-group grid-cols-1 md:grid-cols-2">
@@ -77,12 +76,39 @@
 			<h2>Szabad séta + Tűztorony</h2>
 			<span class="subtitle">Sopron</span>
 			<p>
-				Mekivel kezdtük, majd a Tanár Úr által kiküldött helyszíneket látogattuk meg sorban. A
-				helyszíneken csoportképeket kellett készíteni. Ezután felmentünk a Tűztorony kilátójába.
+				A Sopronba való érkezésünk után nem sokkal el lettünk szabadon engedve a városban nagyjából
+				két és fél órára. Ez idő alatt (hatékonyan beosztva) kellett megebédelnünk - amin elsőnek
+				túl is estünk egy Mekiben - és körbejárni a környék híresebb látnivalóit, amelyekről egy
+				email-ben kapott lista alapján tájékozódhattunk. Az elért helyszíneken egy-egy csoportképpel
+				kellett igazolni a látogatásunkat. Sok érdekes dolgot láttunk a séta közben, köztük a
+				Soproni® márkalogó felfestve egy közönséges panelház oldalára, és a Soproni Orsolyita
+				Templom, ami nem volt a látogatandó állomások listáján, de annyira megakadt rajta a szemem,
+				hogy fotót is készítettem róla (véletlenül sem azért, hogy kitöltse a helyet a blogon).
+			</p>
+			<p>
+				Az összes állomás végigjárása után - amit nem feltétlenül mindenki tett meg - eljött a
+				Tűztorony lépcsői megmászásának ideje. Körülbelül 200 darab csigalépcsőfokról van szó,
+				amelyeknek mire a végére értünk, már kiőszültünk. Összességében megérte: gyönyörű kilátás
+				fogadott, amit anno a toronyőrök is rendkívül kedvelhettek a munkájuk alatt. A tetőn
+				elvoltunk egy darabig, és észrevehettünk különös dolgokat a távolban, mint például az a
+				bizonyos kínai áruház. Nem sokkal később elindultunk lefelé, és egy újabb évszázadokon át
+				tartó mászás után a busz felé vettük az irányt.
 			</p>
 
+			<div class="pic-group grid-cols-3">
+				<ExpandablePicture src="/img/sopron/beer.jpg" title="Sör" />
+				<ExpandablePicture src="/img/sopron/chruch.jpg" title="A Soproni Orsolyita Templom" />
+				<ExpandablePicture src="/img/sopron/tuztorony/bottom.jpg" title="A Tűztorony alulról" />
+			</div>
 			<div class="pic-group grid-cols-1 md:grid-cols-2">
-				<ExpandablePicture src="/img/sopron/viewpoint.jpg" title="A város a Tűztoronyról" />
+				<ExpandablePicture
+					src="/img/sopron/tuztorony/viewpoint-1.jpg"
+					title="A város a Tűztoronyról #1"
+				/>
+				<ExpandablePicture
+					src="/img/sopron/tuztorony/viewpoint-2.jpg"
+					title="A város a Tűztoronyról #2"
+				/>
 			</div>
 		</article>
 		<article>
