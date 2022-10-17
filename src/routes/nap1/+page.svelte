@@ -21,16 +21,26 @@
 			<span class="subtitle">Tardos</span>
 			<p>
 				Az osztállyal az iskola előtt gyülekeztünk és 8:00 után már indultunk is Tardos felé, az
-				első megállónkhoz. Ide egy rádiómúzeumot mentünk meglátogatni. A múzeum egy teljesen
-				hétköznapi házban volt található, de belülről egyértelmű volt a különbség: a falak mentén
-				végig mindenhol rádiók álltak. Pontosabban 131 darab működőképes rádióról van szó, amik a
-				rádiózás első 50 évének történelmét és a technológia fejlődését mutatják be. Tárlatvezetőnk
-				Tarnóczy András volt, akinek az otthonában álltunk éppen. Már gyerekkorában beleszeretett a
-				rádiózásba, már fiatalon is készített saját rádiókat. 1991 óta gyűjti a rádiókat, melyeket
-				emberek adományoztak neki, így alakult ki ez a ma hatalmas gyűjtemény. Igaz, hogy Tardoson
-				található, de 6 éve már a tatai Kuny Domokos Múzeumhoz tartozik, akik megvették Andrástól a
-				gyűjteményt. Azonban megkérték, hogy ameddig még szeretné, ő fogadja a látogatókat. A
-				látogatásunk során lehetőségünk volt meghallgatni többek között a legöregebb modell
+				első megállónkhoz. Ide egy rádiómúzeumot mentünk meglátogatni.
+			</p>
+			<p>
+				A múzeum egy teljesen hétköznapi házban volt található, de belülről egyértelmű volt a
+				különbség: a falak mentén végig mindenhol rádiók álltak. Pontosabban 131 darab működőképes
+				rádióról van szó, amik a rádiózás első 50 évének történelmét és a technológia fejlődését
+				mutatják be.
+			</p>
+			<p>
+				Tárlatvezetőnk Tarnóczy András volt, akinek az otthonában álltunk éppen. Már gyerekkorában
+				beleszeretett a rádiózásba, már fiatalon is készített saját rádiókat. 1991 óta gyűjti a
+				rádiókat, melyeket emberek adományoztak neki, így alakult ki ez a ma hatalmas gyűjtemény.
+			</p>
+			<p>
+				Igaz, hogy Tardoson található, de 6 éve már a tatai Kuny Domokos Múzeumhoz tartozik, akik
+				megvették Andrástól a gyűjteményt. Azonban ő megkérte őket, hogy ameddig még lehetséges, ő
+				fogadhassa a látogatókat.
+			</p>
+			<p>
+				A látogatásunk során lehetőségünk volt meghallgatni többek között a legöregebb modell
 				hangzását az abban a korban jellemző zeneélménnyel kombinálva. (Elég hangulatos volt)
 			</p>
 			<div class="pic-group grid-cols-1 md:grid-cols-2">
@@ -45,10 +55,12 @@
 			<p>
 				Következő megállónk Tata volt, itt meglátogattuk a Tatai várat. A vár körül egy várárok
 				található, ami a vár mögötti Öreg-tóval kapcsolódik össze. A víz magassága nem volt túl
-				nagy, láthattunk egy kisebb éttermet a várárok száraz részén. A várkaput egy kőhídon
-				átsétálva közelíthettük meg. A falakon belülre lépve észrevehettünk a várból megmaradt
-				egyetlen szárnyat. Itt találhatóak az először 1974-ben megnyílt Kuny Domokos Múzeum
-				kiállításai is, valójában ide jöttünk, a tárlatvezetésre.
+				nagy, láthattunk egy kisebb éttermet a várárok száraz részén.
+			</p>
+			<p>
+				A várkaput egy kőhídon átsétálva közelíthettük meg. A falakon belülre lépve észrevehettünk a
+				várból megmaradt egyetlen szárnyat. Itt találhatóak az először 1974-ben megnyílt Kuny
+				Domokos Múzeum kiállításai is, valójában ide jöttünk, a tárlatvezetésre.
 			</p>
 			<p>A tárlatvezetés után meglátogattuk az Öreg-tavat is.</p>
 			<div class="pic-group grid-cols-1 md:grid-cols-2">
@@ -78,14 +90,18 @@
 			<span class="subtitle">Nagyszentjános</span>
 			<p>
 				Következő állomásunk a nagyszentjánosi Kisalföldi Zrt. tehenészete volt. Itt kb. 1100 tejelő
-				tehén volt található, akinek élete szinte teljesen automatizálva lett gépek által. Amikor
-				megérkeztünk hirtelen mindenkit megcsapott az erős silószag. Bevallom, rosszabbra
-				számítottam, de viszonylag tiszta volt az összes járda. A tehenek több nagy felülről fedett
-				épületben voltak, több is a fejét kidugva evett a kirakott silóból. A "tárlatvezetőnk"
-				körbevezetett minket és megmutatta az automata fejőgépet. A látogatásunk végén még meg is
-				etettek minket bőségesen péksüteményekkel.
+				tehén volt található, akinek élete szinte teljesen automatizálva lett gépek által.
 			</p>
-
+			<p>
+				Amikor megérkeztünk hirtelen mindenkit megcsapott az erős silószag. Bevallom, rosszabbra
+				számítottam, de viszonylag tiszta volt az összes járda.
+			</p>
+			<p>
+				A tehenek több nagy felülről fedett épületben voltak, több is a fejét kidugva evett a
+				kirakott silóból. A "tárlatvezetőnk" körbevezetett minket és megmutatta az automata
+				fejőgépet.
+			</p>
+			<p>A látogatásunk végén még meg is etettek minket bőségesen péksüteményekkel.</p>
 			<div class="pic-group grid-cols-1 md:grid-cols-2">
 				<ExpandablePicture src="/img/teheneszet/inside.jpg" title="new List<Tehén>()" />
 				<ExpandablePicture src="/img/teheneszet/ad.jpg" title="A hely üzemeltetői" />
@@ -97,10 +113,12 @@
 			<p>
 				A Pannonhalmi Főapátság volt következő megállónk. A monostor egy domb tetején állt, ahonnal
 				el lehetett látni egészen Győrig. A monostor több nagy épületből álló épületkomplexum,
-				többek között található volt itt bencés iskola és egy bazilika is. Az utóbbi, a Szent
-				Márton-bazilika volt a fő látványosság, amely 55 méteres magasságával tornyosult felénk.
-				Fontos jelképe az fehér ónixkő, amely megtalálható volt a rózsaablakban is. Lenézünk az
-				altemplomba is, itt volt elhelyezve Habsburg Ottó szívurnája is.
+				többek között található volt itt bencés iskola és egy bazilika is.
+			</p>
+			<p>
+				Az utóbbi, a Szent Márton-bazilika volt a fő látványosság, amely 55 méteres magasságával
+				tornyosult felénk. Fontos jelképe az fehér ónixkő, amely megtalálható volt a rózsaablakban
+				is. Lenézünk az altemplomba is, itt volt elhelyezve Habsburg Ottó szívurnája is.
 			</p>
 			<div class="pic-group grid-cols-3">
 				<ExpandablePicture src="/img/pannonhalma/b-outside.jpg" title="A bazilika kívülről" />

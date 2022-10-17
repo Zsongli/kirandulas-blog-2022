@@ -34,22 +34,22 @@
 			<p>
 				A harmadik és egyben utolsó napon gyors összepakolás után útnak indultunk a nap első
 				megállójához, Kőszeghez. Itt a Jurisics-várat látogattuk meg, és még tervben volt egy szabad
-				séta is, de végül azt inkább a következő helyre hagytuk. A vár kapuján belépve elénk tárult
-				az udvar, ami most le volt zárva mert egy színpad fel volt állítva(?). Volt itt egy szuvenír
-				bolt is, sokan egyből elkezdtek kardozni a kirakott játékfegyverekkel. Ezután bemehettünk a
-				valódi kiállítás részre, de még mielőtt elengedtek volna, adtak egy feladatsort, amit a
-				látottak alapján majd ki tudnánk tölteni. Mi ketten plusz Domi és Zsombor együtt dolgoztunk
-				a feladatsort kitöltésén, legalábbis ez volt a terv mert Ádámot az elején elveszítettük :/ A
-				hely elég hangulatosan be volt rendezve, volt egy fegyverraktár, ahol már nem csak
-				játékfegyverek voltak, hanem vaskardok is (tompa, de üt).
+				séta is, de végül azt inkább a következő helyre hagytuk.
 			</p>
 			<p>
-				Sajnos már nincs meg a feladatsor, de néhány feladatra emlékszem. Volt egy olyan, amihez fel
-				kellett mászi a harang tornyába. Több olyan feladat is volt, ahol a plakátokon kiírt
-				információkat kellett leolvasni vagy meg kellett számolni dolgokat. A legnehezebb feladat
-				egy falba vésett betű megtalálása volt. Több csapat kereste egyszerre, de így is csak sok
-				idő után találtuk meg. Ez a feladatsor valójában egy verseny volt, hogy ki tud több kérdést
-				helyesen megválaszolni. Nekünk sikerült is 1 hibával, amivel elsők lettünk.
+				A vár kapuján belépve elénk tárult az udvar, ami most le volt zárva mert egy színpad fel
+				volt állítva. Volt itt egy szuvenír bolt is, sokan egyből elkezdtek kardozni a kirakott <!-- (?) -->
+				játékfegyverekkel.
+			</p>
+			<p>
+				Ezután bemehettünk a valódi kiállítás részre, de még mielőtt elengedtek volna, adtak egy
+				feladatsort, amit a látottak alapján majd ki tudnánk tölteni. Mi ketten plusz Domi és
+				Zsombor együtt dolgoztunk a feladatsort kitöltésén, legalábbis ez volt a terv mert Ádámot az
+				elején elveszítettük :/
+			</p>
+			<p>
+				A hely elég hangulatosan be volt rendezve, volt egy fegyverraktár, ahol már nem csak
+				játékfegyverek voltak, hanem vaskardok is, amik ugyan tompák voltak, de rendesen ütöttek.
 			</p>
 			<div class="pic-group grid-cols-1 md:grid-cols-2">
 				<ExpandablePicture src="/img/jurisics/outer.jpg" title="A vár kívülről" />
@@ -57,10 +57,18 @@
 			</div>
 			<div class="pic-group grid-cols-2 md:grid-cols-4">
 				<ExpandablePicture src="/img/jurisics/miklos.jpg" title="Jurisics Miklós szobra" />
-				<ExpandablePicture src="/img/jurisics/bell.jpg" title="Ébresztő mindenkinek" />
 				<ExpandablePicture src="/img/jurisics/1v1.jpg" title="Intenzív leszámolás" />
+				<ExpandablePicture src="/img/jurisics/bell.jpg" title="Ébresztő mindenkinek" />
 				<ExpandablePicture src="/img/jurisics/shoe.jpg" title="Győzedelmi cipő felhúzva" />
 			</div>
+			<p>
+				Sajnos már nincs meg a feladatsor, de néhány feladatra emlékszem. Volt egy olyan, amihez fel
+				kellett mászni a harang tornyába. Több olyan feladat is volt, ahol a plakátokon kiírt
+				információkat kellett leolvasni vagy meg kellett számolni dolgokat. A legnehezebb feladat
+				egy falba vésett betű megtalálása volt. Több csapat kereste egyszerre, de így is csak sok
+				idő után találtuk meg. Ez a feladatsor valójában egy verseny volt, hogy ki tud több kérdést
+				helyesen megválaszolni. Nekünk sikerült is 1 hibával, amivel elsők lettünk.
+			</p>
 		</article>
 		<article>
 			<h2>Iseum</h2>
@@ -112,6 +120,8 @@
 				A végén még maradt egy kis időnk szabad sétára, evésre. Amikor indultunk volna Szomathelyről
 				Győr felé, késett a busz, így csak kevés szabadidő maradt. A legtöbb, amit sikerült
 				csinálni, az elsétálni a legközelebbi boltba és venni italt, majd visszasétálni a buszhoz.
+			</p>
+			<p>
 				Egyesek sajnos nem vették észre az idő hiányát, így kellett egy negyed órát várni még,
 				mielőtt indulhattunk volna...
 			</p>
