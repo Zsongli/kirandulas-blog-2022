@@ -8,7 +8,7 @@
 		{ src: "/img/homepage/szombat-is-front.jpg", title: "Iseum Savariense" },
 		{ src: "/img/homepage/tataivar-lakeside.jpg", title: "Tatai vár" },
 		{ src: "/img/homepage/teheneszet-inside.jpg", title: "Nagyszentjános, Biofarm" },
-		{ src: "/img/homepage/sopron-tuztorony-bottom.jpg", title: "A soproni Tűztorony" }
+		{ src: "/img/homepage/sopron-tuztorony-bottom.jpg", title: "Sopron, Tűztorony" }
 	];
 </script>
 
