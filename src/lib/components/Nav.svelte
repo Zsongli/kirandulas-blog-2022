@@ -30,7 +30,10 @@
 			<slot name="start" />
 		</div>
 
-		<a class="lg:hidden flex btn btn-ghost normal-case text-2xl gap-3 flex-nowrap whitespace-nowrap overflow-visible" href="/">
+		<a
+			class="lg:hidden flex btn btn-ghost normal-case text-2xl gap-3 flex-nowrap whitespace-nowrap overflow-visible"
+			href="/"
+		>
 			<Fa {icon} size="1.2x" />
 			<div class="xs:inline hidden">
 				{title}
@@ -50,17 +53,17 @@
 <style lang="postcss">
 	nav {
 		grid-template-columns: 1fr 2fr 1fr;
-	}
 
-	nav :global(ul.menu) > :global(li) > :global(a) {
-		border-radius: var(--rounded-btn);
-	}
+		& :global(ul.menu) > :global(li) > :global(a) {
+			@apply rounded-btn;
+		}
 
-	nav .dropdown-content :global(ul) {
-		@apply flex-col;
-	}
+		& .dropdown-content :global(ul) {
+			@apply flex-col;
 
-	nav .dropdown-content :global(ul) > :global(li) > :global(a) {
-		@apply w-full justify-center;
+			& > :global(li) > :global(a) {
+				@apply w-full justify-center;
+			}
+		}
 	}
 </style>

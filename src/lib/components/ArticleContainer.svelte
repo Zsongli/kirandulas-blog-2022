@@ -60,31 +60,35 @@
 		@apply md:text-lg italic text-center p-4;
 	}
 
-	section :global(article) :global(h2) {
-		@apply text-2xl uppercase font-bold mb-4;
-	}
+	section {
+		& :global(article) {
+			& :global(h2) {
+				@apply text-2xl uppercase font-bold mb-4;
+			}
 
-	section :global(article) :global(h3) {
-		@apply text-xl uppercase font-bold mb-3;
-	}
+			& :global(h3) {
+				@apply text-xl uppercase font-bold mb-3;
+			}
 
-	section :global(article) :global(h4) {
-		@apply text-lg uppercase font-bold mb-2;
-	}
+			& :global(h4) {
+				@apply text-lg uppercase font-bold mb-2;
+			}
 
-	section :global(article) :global(h5) {
-		@apply text-base uppercase font-bold mb-1;
-	}
+			& :global(h5) {
+				@apply text-base uppercase font-bold mb-1;
+			}
 
-	section :global(article) :global(span.subtitle) {
-		@apply text-base block italic -mt-2;
-	}
+			& :global(span.subtitle) {
+				@apply text-base block italic -mt-2;
+			}
 
-	section :global(article) :global(div.pic-group) {
-		@apply my-4 grid gap-4;
-	}
+			& :global(div.pic-group) {
+				@apply my-4 grid gap-4;
+			}
 
-	section :global(article) :global(p) {
-		@apply mt-6;
+			& :global(p) {
+				@apply mt-6;
+			}
+		}
 	}
 </style>
