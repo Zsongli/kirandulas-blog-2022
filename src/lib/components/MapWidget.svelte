@@ -10,18 +10,31 @@
 	export var zoom: number = 7;
 	export var minZoom = 0;
 	export var markers: { lat: number; lng: number; title: string }[] = [];
+	export var markerConnecions: number[] = [];
 
 	var map: L.Map;
 	var markerLayer: L.LayerGroup;
+	var connectionLayer: L.LayerGroup;
 	const id = `leaflet-${crypto.randomUUID()}`;
 	var icon: L.Icon;
 	var mounted = false;
-	
+
 	function updateMarkers(markers: { lat: number; lng: number; title: string }[]) {
 		markerLayer.clearLayers();
 		markers.forEach((marker) =>
 			new L.Marker(marker, { icon, riseOnHover: true }).addTo(markerLayer).bindTooltip(marker.title)
 		);
+	}
+
+	function updateConnections(connections: number[]) {
+		connectionLayer.clearLayers();
+		const points = connections.map((c) => markers[c]);
+		const line = new L.Polyline(points, {
+			color: "hsl(var(--a) / var(--tw-bg-opacity, 1))",
+			dashArray: [5, 5],
+			weight: 2
+		});
+		line.addTo(connectionLayer);
 	}
 
 	$: mounted && map.setView(position, zoom);
@@ -34,7 +47,7 @@
 			)
 		);
 	$: mounted && updateMarkers(markers);
-
+	$: mounted && updateConnections(markerConnecions);
 
 	onMount(async () => {
 		L = await import("leaflet");
@@ -66,6 +79,7 @@
 			maxZoom: 14
 		}).addTo(map);
 		markerLayer = new L.LayerGroup().addTo(map);
+		connectionLayer = new L.LayerGroup().addTo(map);
 
 		mounted = true;
 	});

@@ -1,6 +1,8 @@
 <script lang="ts">
 	import ImageCarousel from "$lib/components/ImageCarousel.svelte";
 	import MapWidget from "$lib/components/MapWidget.svelte";
+	import Fa from "svelte-fa";
+	import { faChevronDown, faLocationDot, faAnglesRight } from "@fortawesome/free-solid-svg-icons";
 
 	const images = [
 		{ src: "/img/homepage/gyor-viewpoint-1.jpg", title: "Püspökvár-Toronykilátó" },
@@ -53,11 +55,16 @@
 				régió legérdekesebb látnivalóit! Kezdj olvasni, és ne maradj le ennek az évnek a tartalmáról
 				sem!
 			</p>
-			<a
-				href="/nap1"
-				class="btn btn-primary xl:btn-lg shadow-primary-focus shadow-lg landscape:shadow-primary-focus landscape:shadow-2xl ring-primary-focus ring-2"
-				>Irány az első nap</a
-			>
+			<div class="w-full flex flex-col landscape:flex-row flex-wrap gap-4">
+				<a
+					href="/nap1"
+					class="btn btn-primary xl:btn-lg shadow-primary-focus shadow-lg landscape:shadow-primary-focus landscape:shadow-2xl ring-primary-focus ring-2 gap-4"
+					>Irány az első nap<Fa icon={faAnglesRight}/></a
+				>
+				<a href="#utvonal" class="btn btn-secondary xl:btn-lg gap-4"
+					>Útvonal megtekintése<Fa icon={faChevronDown} /></a
+				>
+			</div>
 		</div>
 		<ImageCarousel
 			{images}
@@ -67,6 +74,7 @@
 		/>
 	</section>
 	<section
+		id="utvonal"
 		class="items-stretch flex flex-col-reverse landscape:flex-row justify-end landscape:justify-around relative overflow-x-hidden landscape:min-h-[480px] bg-base-300 p-4 landscape:p-0"
 	>
 		<MapWidget
@@ -79,11 +87,17 @@
 			minZoom={7}
 			zoom={8}
 			{markers}
+			markerConnecions={[0, 1, 2, 3, 4, 5, 6, 7, 8, 5, 9, 10, 11, 0]}
 		/>
 		<div
 			class="flex flex-col items-stretch landscape:items-start justify-center gap-6 p-6 landscape:p-16 self-center max-w-3xl w-full landscape:w-1/2 text-center landscape:text-left"
 		>
-			<h2 class="text-xl md:text-2xl lg:text-3xl font-semibold w-full">Útvonalunk</h2>
+			<div
+				class="w-full flex flex-row items-center justify-center landscape:justify-start text-xl md:text-2xl lg:text-3xl font-semibold gap-4"
+			>
+				<Fa icon={faLocationDot} />
+				<h2 class="">Útvonalunk</h2>
+			</div>
 			<p class="text-base md:text-lg w-full">
 				Az interaktív térképen felfedezheted a három nap alatt megtett utunkat. A kijelölt pöttyök
 				az egyes állomások helyszíneit mutatják, az egérmutatót feléjük helyezvén meg is
