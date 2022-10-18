@@ -78,7 +78,7 @@
 		class="items-stretch flex flex-col-reverse landscape:flex-row justify-end landscape:justify-around relative overflow-x-hidden landscape:min-h-[480px] bg-base-300 p-4 landscape:p-0"
 	>
 		<MapWidget
-			class="inline-block relative overflow-hidden shadow-accent-focus shadow-lg landscape:shadow-accent-focus landscape:shadow-xl h-[360px] landscape:h-[inherit] w-full landscape:w-1/2 landscape:m-8 rounded-box max-w-2xl m-auto"
+			class="inline-block relative overflow-hidden shadow-accent-focus shadow-md h-[360px] landscape:h-[inherit] w-full landscape:w-1/2 landscape:m-8 rounded-box max-w-2xl m-auto"
 			bounds={{
 				sw: { lat: 48.6590427, lng: 15.7873599 },
 				ne: { lat: 45.6957106, lng: 23.2025655 }
