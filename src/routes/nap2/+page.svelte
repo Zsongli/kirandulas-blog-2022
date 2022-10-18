@@ -23,8 +23,23 @@
 		<article>
 			<h2>Esterházy-kastély</h2>
 			<span class="subtitle">Fertőd</span>
-			<p>Epikus nagy fancy ház.</p>
-
+			<p>
+				Amint megláttam az épületet, azonnal feltűnt, hogy a Schönbrunni kastélyra emlékeztet, amit
+				korábban Bécsben láttam. Erről később megerősítést is kaptam a vezetőnktől, aki
+				megemlítette, hogy éppen arról lett mintázva, ugyanis a korában nagyon "divatosnak"
+				számított.
+			</p>
+			<p>
+				Egyébként minket körülbelül egy héttel megelőzve látogatott ide a korábban említett vlogger,
+				André Traveler. Mint az a videójából kiderült, a kastélynál a nem túl kedvesen fogadták,
+				mint turista, amiről híres is lett a hely a magyar közösségi médián, de szerencsénkre mi ezt
+				nem tapsztaltuk.
+			</p>
+			<p>
+				A tárlatvezetés jó minőségű volt, körbevezettek minket a kastély érdekesebb részein,
+				valamint nem sokkal később a múzeumban is, ahol a kastély történetéhez kapcsolódó értékesebb
+				tárgyakat állították ki.
+			</p>
 			<div class="pic-group grid-cols-1 md:grid-cols-2">
 				<ExpandablePicture src="/img/fertod/entrance.jpg" title="A díszes kapu" />
 				<ExpandablePicture src="/img/fertod/front.jpg" title="A kastély szemből" />
@@ -126,8 +141,21 @@
 		<article>
 			<h2>Csalogány Tábor</h2>
 			<span class="subtitle">Csapod</span>
-			<p>A táborhely</p>
-
+			<p>A táborhely Csapodon található egy kis utca végén. Itt töltöttük el a két éjszakánkat.</p>
+			<p>
+				Összességében jó tapasztalatokkal távoztunk. Sőt, kiemelkedően jókkal az eddigiekhez képest.
+				Az egyetlen kifogásolható tényező a szobánk mérete volt, de ezen kívül minden szükségletünk
+				ki lett elégítve. A bácsi, aki fogadott minket, nagyon kedves volt.
+			</p>
+			<p>
+				Szabadidőnkben az udvaron focizhattunk, vagy röplabdázhattunk, ugyanis mind a kettőhöz volt
+				megfelelő felszerelés. A másik legnépszerűbb elfoglaltság pedig az ebédlőben való
+				társasjátékozás volt.
+			</p>
+			<p>
+				Ezen kívül még pozitív tényező a táborhely konyhája volt. Igazi, házias ízeket kaptunk,
+				kiváló minőségben, és még az adagból sem sajnáltak.
+			</p>
 			<div class="pic-group grid-cols-1 md:grid-cols-2">
 				<ExpandablePicture src="/img/csapod/dining-area.jpg" title="Az kültéri étkező" />
 				<ExpandablePicture src="/img/csapod/house.jpg" title="A 2x5 személyes ház" />

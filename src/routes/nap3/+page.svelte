@@ -130,6 +130,9 @@
 			<h2>Végszó</h2>
 			<span class="subtitle">Budapest</span>
 			<p>Összességében elég jó volt a kirándulás, minden hely tartogatott valami emlékezeteset.</p>
+			<p>Tarts velünk jövőre is, a leendő, 2023-as tanulmányi kirándulási blogunkon.</p>
+			<h4 class="w-full m-auto text-center mt-12">Köszönjük a figyelmet!</h4>
+			<a class="block w-full m-auto text-center italic text-sm opacity-50 link" href="/">(vissza a főoldalra)</a>
 		</article>
 	</ArticleContainer>
 </template>
