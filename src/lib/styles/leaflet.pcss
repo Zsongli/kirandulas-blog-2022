@@ -83,7 +83,7 @@
 	-webkit-tap-highlight-color: rgba(51, 181, 229, 0.4);
 }
 .leaflet-tile {
-	filter: inherit;
+	filter: brightness(0.6) invert(1) contrast(3) saturate(0.6) brightness(0.7);
 	visibility: hidden;
 }
 .leaflet-tile-loaded {
@@ -219,7 +219,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 }
 
 .leaflet-container {
-	background: #ddd;
+	@apply bg-base-100;
 	outline: 0;
 }
 .leaflet-container a {
@@ -322,7 +322,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 }
 
 .leaflet-div-icon {
-	background: #red;
+	background: red;
 	border: 1px solid #666;
 }
 .leaflet-tooltip {
