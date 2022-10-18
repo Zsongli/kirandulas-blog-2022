@@ -37,7 +37,7 @@
 			</a>
 			<div class="flex flex-col">
 				<span class="font-semibold uppercase">2022 - SZENT LÁSZLÓ GIMNÁZIUM, BUDAPEST</span>
-				<span class="opacity-25 italic text-xs"
+				<span class="opacity-50 italic text-xs"
 					>A weboldalt készítette Makai Tamás és Mélykuti Ádám</span
 				>
 			</div>
