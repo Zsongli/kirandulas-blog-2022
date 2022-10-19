@@ -100,7 +100,7 @@
 			</div>
 			<p class="text-base md:text-lg w-full">
 				Az interaktív térképen felfedezheted a három nap alatt megtett utunkat. A kijelölt pöttyök
-				az egyes állomások helyszíneit mutatják, az egérmutatót feléjük helyezvén meg is
+				az egyes állomások helyszíneit mutatják, az egérmutatót feléjük helyezvén, illetve koppintással meg is
 				jelenítheted az aktuális helyszín nevét. Egér esetén görgetéssel, érintőképernyő esetén
 				csippentő mozdulattal, vagy pedig a térkép jobb alsó felén található gombokkal közelítheted,
 				illetve távolíthatod a nézetet.
