@@ -11,7 +11,7 @@
 	<ArticleContainer title="Az első nap" date="2022. 09. 07" nextHref="/nap2">
 		<p slot="description">
 			A kirándulás első napján Kőbányáról először Tardosra indultunk, majd emellett olyan helyeket
-			fedeztünk fel, mint a Tatai vár, az Öreg-tó, egy Tehenészet Nagyszentjánoson, valamint a
+			fedeztünk fel, mint a Tatai vár, az Öreg-tó, egy tehenészet Nagyszentjánoson, valamint a
 			Pannonhalmi Főapátság. A busz ugyan csak pár perc késéssel tudott csak indulni, de ez nem
 			jelentett problémát. Minden állomáson el tudtuk tölteni a maximális időt.
 		</p>
