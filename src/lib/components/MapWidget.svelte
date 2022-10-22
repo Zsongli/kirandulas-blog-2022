@@ -12,10 +12,10 @@
 	export var markers: { lat: number; lng: number; title: string }[] = [];
 	export var markerConnecions: number[] = [];
 
+	var container: HTMLDivElement;
 	var map: L.Map;
 	var markerLayer: L.LayerGroup;
 	var connectionLayer: L.LayerGroup;
-	const id = `leaflet-${crypto.randomUUID()}`;
 	var icon: L.Icon;
 	var mounted = false;
 
@@ -52,7 +52,7 @@
 	onMount(async () => {
 		L = await import("leaflet");
 
-		map = new L.Map(id, {
+		map = new L.Map(container, {
 			maxBounds:
 				bounds != null
 					? new L.LatLngBounds(
@@ -86,5 +86,5 @@
 </script>
 
 <template>
-	<div {id} {...$$restProps} />
+	<div bind:this={container} {...$$restProps} />
 </template>
